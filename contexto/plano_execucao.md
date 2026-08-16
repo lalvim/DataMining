@@ -23,9 +23,9 @@ Ao final da produção, o repositório deverá conter:
 ```text
 DataMining/
 ├── README.md
-├── ambiente/
-│   ├── requirements.txt
-│   └── environment.yml
+├── pyproject.toml
+├── uv.lock
+├── .python-version
 ├── contexto/
 │   ├── resumo_disciplina.md
 │   ├── plano_execucao.md
@@ -69,7 +69,7 @@ Cada assunto será desenvolvido no ciclo:
 6. **Verificação:** perguntas rápidas e exercícios.
 7. **Síntese:** principais conclusões, limitações e referências.
 
-Bibliotecas-base previstas: Python, NumPy, pandas, SciPy, Matplotlib, Seaborn, scikit-learn e, para regras de associação, mlxtend. Toda dependência usada deverá constar no arquivo de ambiente com versão compatível.
+Bibliotecas-base previstas: Python, NumPy, pandas, SciPy, Matplotlib, Seaborn, scikit-learn e, para regras de associação, mlxtend. O **uv** será o gerenciador exclusivo de Python, ambiente e pacotes. Dependências diretas deverão ser adicionadas ao `pyproject.toml` com `uv add`; o `uv.lock` deverá ser versionado para garantir instalações reproduzíveis.
 
 ## 5. Distribuição da carga horária
 
@@ -91,14 +91,15 @@ A quantidade de notebooks é uma estimativa. Um notebook deverá ser dividido qu
 Antes da Unidade I:
 
 - criar a árvore de diretórios;
-- definir as versões de Python e das bibliotecas;
+- manter a versão de Python em `.python-version` e os requisitos em `pyproject.toml`;
+- resolver e versionar `uv.lock` com `uv sync`;
 - criar `00_apresentacao_e_ambiente.ipynb` com instruções de instalação e teste;
 - criar um notebook-modelo com a estrutura definida nas diretrizes;
 - escolher conjuntos de dados que possam reaparecer em diferentes unidades;
 - configurar validação automatizada dos notebooks;
 - atualizar o README com a ordem de estudo.
 
-**Critério de conclusão:** ambiente recriado do zero e notebook de apresentação executado sem erros.
+**Critério de conclusão:** ambiente recriado do zero com `uv sync` e notebook de apresentação executado com `uv run` sem erros.
 
 ## 7. Execução por unidade
 

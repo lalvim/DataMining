@@ -1,0 +1,31 @@
+[project]
+name = "mineracao-de-dados"
+version = "0.1.0"
+description = "Material didático em Jupyter Notebooks para a disciplina de Mineração de Dados"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "ipykernel>=6.29,<7",
+    "jupyterlab>=4.2,<5",
+    "matplotlib>=3.9,<4",
+    "mlxtend>=0.23,<0.24",
+    "numpy>=2.0,<3",
+    "pandas>=2.2,<3",
+    "scikit-learn>=1.5,<2",
+    "scipy>=1.14,<2",
+    "seaborn>=0.13,<0.14",
+]
+
+[dependency-groups]
+dev = [
+    "nbconvert>=7.16,<8",
+    "nbformat>=5.10,<6",
+    "ruff>=0.6,<1",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]

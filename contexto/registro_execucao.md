@@ -63,6 +63,8 @@ Estados permitidos:
 - Inspecionado o sumário de `contexto/hanDataMiningConceptual.pdf` e mapeados os capítulos relevantes para cada unidade.
 - Criada a pasta `contexto/revisores` com protocolos de didática, referências, alinhamento curricular, nível acadêmico, exatidão técnica, qualidade editorial/acessibilidade e reprodutibilidade.
 - Criados um modelo padronizado de parecer e um checklist de consolidação das revisões.
+- Adotado o `uv` como gerenciador exclusivo de Python, ambiente virtual e dependências.
+- Criados `pyproject.toml`, `.python-version` e `uv.lock`; a resolução foi validada com Python 3.11.
 
 ## Decisões e alterações de escopo
 
@@ -70,7 +72,8 @@ Estados permitidos:
 |---|---|---|---|
 | 2026-08-16 | Não incluir Data Warehouse como unidade | O tema está comentado no programa analítico atual | Mantidas sete unidades e 60 horas |
 | 2026-08-16 | Usar o livro de Han, Pei e Tong, 4ª edição, como guia principal | É a edição disponível na pasta `contexto` | Referências do plano seguem capítulos da 4ª edição |
+| 2026-08-16 | Adotar o uv para ambiente e pacotes | Unifica Python, `.venv`, dependências, lock e execução em uma única ferramenta | `pyproject.toml`, `.python-version` e `uv.lock` tornam-se a configuração oficial |
 
 ## Pendências e bloqueios
 
-Nenhum bloqueio registrado. A próxima ação prevista é criar a infraestrutura do projeto, o ambiente reproduzível e o notebook-modelo.
+Nenhum bloqueio registrado. A configuração inicial e o lock do ambiente estão prontos; as próximas ações são instalar com `uv sync`, validar a execução e criar o notebook-modelo.

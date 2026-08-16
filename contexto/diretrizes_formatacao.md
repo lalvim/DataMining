@@ -99,6 +99,11 @@ Convenções:
 
 ## 6. Código Python
 
+- Usar exclusivamente o **uv** para selecionar o Python, criar o `.venv`, resolver dependências e executar ferramentas.
+- Declarar dependências diretas em `pyproject.toml` por meio de `uv add` ou `uv add --dev`.
+- Versionar `.python-version`, `pyproject.toml` e `uv.lock`; não versionar `.venv`.
+- Não executar `pip install`, `conda install`, `%pip` ou `!pip` nos notebooks.
+- Executar comandos do projeto com `uv run`, por exemplo `uv run jupyter lab`.
 - Seguir PEP 8 e usar nomes descritivos em `snake_case`.
 - Organizar importações no início: biblioteca padrão, terceiros e módulos locais.
 - Evitar `from modulo import *`.
@@ -233,15 +238,16 @@ Referência-padrão do livro-guia:
 
 Antes de considerar um notebook pronto:
 
-1. Reiniciar o kernel e limpar todas as saídas.
-2. Executar todas as células na ordem.
-3. Confirmar ausência de erros e dependência de estado oculto.
-4. Conferir fórmulas renderizadas, links e imagens.
-5. Verificar se resultados numéricos sustentam a interpretação.
-6. Revisar ortografia, terminologia e referências.
-7. Conferir tempo e consumo de memória.
-8. Validar que o ambiente declarado contém todas as dependências.
-9. Registrar a validação em `contexto/registro_execucao.md`.
+1. Sincronizar o ambiente com `uv sync --frozen`.
+2. Reiniciar o kernel e limpar todas as saídas.
+3. Executar todas as células na ordem usando uma ferramenta iniciada com `uv run`.
+4. Confirmar ausência de erros e dependência de estado oculto.
+5. Conferir fórmulas renderizadas, links e imagens.
+6. Verificar se resultados numéricos sustentam a interpretação.
+7. Revisar ortografia, terminologia e referências.
+8. Conferir tempo e consumo de memória.
+9. Validar que `pyproject.toml` e `uv.lock` contêm todas as dependências.
+10. Registrar a validação em `contexto/registro_execucao.md`.
 
 Ferramentas de validação poderão incluir execução via `jupyter nbconvert --execute`, limpeza controlada de metadados e verificação estática, desde que configuradas e documentadas no projeto.
 

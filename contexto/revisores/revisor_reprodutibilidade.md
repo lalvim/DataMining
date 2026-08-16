@@ -8,9 +8,11 @@ Confirmar que o notebook e seus resultados podem ser reproduzidos em ambiente li
 
 ### Ambiente
 
-- Versões de Python e dependências estão declaradas?
+- `.python-version`, `pyproject.toml` e `uv.lock` estão presentes e coerentes?
+- `uv sync --frozen` recria o ambiente sem alterar o arquivo de lock?
 - Todas as importações pertencem ao ambiente documentado?
 - Não há dependência não declarada do sistema local?
+- Os notebooks evitam `pip`, `conda`, `%pip` e `!pip`?
 
 ### Execução
 
@@ -38,12 +40,13 @@ Confirmar que o notebook e seus resultados podem ser reproduzidos em ambiente li
 
 ## Procedimento mínimo
 
-1. Criar ou ativar o ambiente declarado.
-2. Limpar todas as saídas.
-3. Reiniciar o kernel.
-4. Executar todas as células em ordem, preferencialmente por comando automatizado.
-5. Registrar duração, falhas, avisos relevantes e versões.
-6. Comparar as principais saídas com as interpretações do texto.
+1. Remover qualquer dependência de um ambiente previamente ativado.
+2. Recriar o ambiente com `uv sync --frozen`.
+3. Limpar todas as saídas.
+4. Reiniciar o kernel.
+5. Executar todas as células em ordem com uma ferramenta iniciada por `uv run`.
+6. Registrar duração, falhas, avisos relevantes e versões.
+7. Comparar as principais saídas com as interpretações do texto.
 
 ## Evidências mínimas para aprovação
 
