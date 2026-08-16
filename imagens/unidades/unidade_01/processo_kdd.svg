@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
+  <title id="title">Etapas iterativas do processo KDD</title>
+  <desc id="desc">Fluxo da compreensão do problema até a comunicação do conhecimento, com uma seta de retorno indicando iteração.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker>
+    <style>.box{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.txt{font:16px sans-serif;fill:#0f172a;text-anchor:middle}.arrow{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect class="box" x="25" y="75" rx="12" width="145" height="70"/><text class="txt" x="97" y="105"><tspan x="97">Compreensão</tspan><tspan x="97" dy="22">do problema</tspan></text>
+  <rect class="box" x="205" y="75" rx="12" width="145" height="70"/><text class="txt" x="277" y="105"><tspan x="277">Seleção e</tspan><tspan x="277" dy="22">compreensão</tspan></text>
+  <rect class="box" x="385" y="75" rx="12" width="145" height="70"/><text class="txt" x="457" y="105"><tspan x="457">Limpeza e</tspan><tspan x="457" dy="22">transformação</tspan></text>
+  <rect class="box" x="565" y="75" rx="12" width="145" height="70"/><text class="txt" x="637" y="105"><tspan x="637">Mineração</tspan><tspan x="637" dy="22">de dados</tspan></text>
+  <rect class="box" x="745" y="75" rx="12" width="145" height="70"/><text class="txt" x="817" y="105"><tspan x="817">Avaliação e</tspan><tspan x="817" dy="22">interpretação</tspan></text>
+  <rect class="box" x="925" y="75" rx="12" width="145" height="70"/><text class="txt" x="997" y="105"><tspan x="997">Conhecimento</tspan><tspan x="997" dy="22">e comunicação</tspan></text>
+  <path class="arrow" d="M170 110 H200"/><path class="arrow" d="M350 110 H380"/><path class="arrow" d="M530 110 H560"/><path class="arrow" d="M710 110 H740"/><path class="arrow" d="M890 110 H920"/>
+  <path class="arrow" d="M997 150 V225 H97 V150"/><text class="txt" x="547" y="255">Resultados podem exigir a revisão de qualquer etapa anterior</text>
+</svg>

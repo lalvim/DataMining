@@ -211,6 +211,69 @@ Usar marcadores consistentes:
 
 Soluções extensas devem ficar em `solucoes/` ou em versão separada do notebook. Quando houver código incompleto para o estudante, usar `# TODO:` em pontos específicos e executáveis sempre que possível.
 
+### Listas obrigatórias por unidade
+
+Além dos exercícios inseridos nos notebooks, toda unidade deve possuir:
+
+```text
+exercicios/unidade_XX/exercicios_conceituais.md
+exercicios/unidade_XX/multipla_escolha.md
+solucoes/unidade_XX/gabarito_multipla_escolha.md
+```
+
+#### Lista de exercícios conceituais
+
+- Usar formato Markdown e um único título de nível 1.
+- Informar unidade, objetivos avaliados, instruções e tempo estimado.
+- Cobrir todos os objetivos de aprendizagem da unidade.
+- Combinar definição, explicação, comparação, cálculo manual, interpretação e aplicação quando pertinentes.
+- Organizar as questões em progressão de dificuldade.
+- Evitar questões respondidas apenas pela cópia literal de uma frase do material.
+- Indicar dados, fórmulas, arredondamento e produto esperado quando necessários.
+- Identificar questões desafiadoras ou opcionais sem misturá-las ao núcleo obrigatório.
+
+Estrutura recomendada:
+
+```markdown
+# Unidade II — Exercícios conceituais
+
+**Objetivos avaliados:** ...  
+**Tempo estimado:** ...  
+**Instruções:** justifique as respostas e apresente os cálculos.
+
+## Fundamentos
+
+1. [Questão]
+
+## Aplicação e interpretação
+
+2. [Questão]
+
+## Desafio opcional
+
+3. [Questão]
+```
+
+#### Lista de múltipla escolha
+
+- Cada questão deve possuir enunciado autossuficiente e, preferencialmente, quatro alternativas (`A` a `D`).
+- Deve existir uma única melhor resposta, salvo indicação explícita em contrário.
+- Distratores devem ser plausíveis e baseados em erros conceituais frequentes.
+- Evitar pistas gramaticais, alternativas sobrepostas, negações duplas e opções como “todas as anteriores”.
+- Distribuir as alternativas corretas sem padrão previsível.
+- Não tornar uma questão dependente da resposta de outra.
+- Incluir questões de compreensão e aplicação, não apenas memorização.
+- Não inserir respostas ou dicas no arquivo destinado aos estudantes.
+
+#### Gabarito de múltipla escolha
+
+- Ficar obrigatoriamente em `solucoes/`, separado da lista do estudante.
+- Repetir o número da questão e indicar a alternativa correta.
+- Fornecer justificativa breve e conceitual.
+- Explicar o erro representado pelos distratores mais relevantes.
+- Referenciar notebook, seção ou bibliografia para revisão quando útil.
+- Passar por revisão de exatidão técnica e alinhamento antes da publicação.
+
 ## 11. Referências, autoria e direitos autorais
 
 - Citar a fonte de conceitos, dados, imagens e implementações adaptadas.
@@ -263,6 +326,9 @@ Ferramentas de validação poderão incluir execução via `jupyter nbconvert --
 - [ ] Imagens com texto alternativo, legenda, fonte e licença.
 - [ ] Dados documentados e transformações rastreáveis.
 - [ ] Exercícios com instruções e produto esperado.
+- [ ] Lista conceitual da unidade criada e alinhada aos objetivos.
+- [ ] Lista de múltipla escolha criada sem exposição das respostas.
+- [ ] Gabarito separado, comentado e tecnicamente revisado.
 - [ ] Referências completas.
 - [ ] Execução limpa concluída sem erros.
 - [ ] Registro de execução atualizado.

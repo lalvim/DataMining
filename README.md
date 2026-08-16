@@ -28,3 +28,16 @@ uv add --dev nome-do-pacote
 ```
 
 Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos notebooks.
+
+## Roteiro de estudo
+
+1. [Apresentação e ambiente](notebooks/00_apresentacao_e_ambiente.ipynb)
+2. Unidade I — Mineração de Dados
+   - [Introdução à mineração de dados](notebooks/unidade_01/01_01_introducao_a_mineracao_de_dados.ipynb)
+   - [Processo KDD](notebooks/unidade_01/01_02_processo_kdd.ipynb)
+   - [Exercícios conceituais](exercicios/unidade_01/exercicios_conceituais.md)
+   - [Questões de múltipla escolha](exercicios/unidade_01/multipla_escolha.md)
+
+Os gabaritos ficam em `solucoes/` para permitir distribuição separada do material do estudante.
+
+As unidades seguintes serão adicionadas conforme o [plano de execução](contexto/plano_execucao.md). O andamento verificável está no [registro de execução](contexto/registro_execucao.md).

@@ -12,6 +12,8 @@ Ao final da produção, o repositório deverá conter:
 
 - notebooks didáticos executáveis para todas as unidades;
 - exercícios guiados e propostos, com soluções separadas quando necessário;
+- uma lista de exercícios conceituais em Markdown para cada unidade;
+- uma lista de múltipla escolha e seu gabarito comentado para cada unidade;
 - imagens e diagramas próprios ou com licença e atribuição adequadas;
 - conjuntos de dados locais, pequenos e documentados, ou rotinas reprodutíveis de obtenção;
 - ambiente Python reproduzível;
@@ -52,7 +54,13 @@ DataMining/
 ├── imagens/
 │   ├── fontes.md
 │   └── unidades/
+├── exercicios/
+│   └── unidade_XX/
+│       ├── exercicios_conceituais.md
+│       └── multipla_escolha.md
 └── solucoes/
+    └── unidade_XX/
+        └── gabarito_multipla_escolha.md
 ```
 
 A estrutura poderá ser refinada durante a implementação, mas nomes, numeração e separação entre material didático, dados, imagens e soluções devem permanecer consistentes.
@@ -68,6 +76,13 @@ Cada assunto será desenvolvido no ciclo:
 5. **Aplicação:** experimento com dados e interpretação do resultado.
 6. **Verificação:** perguntas rápidas e exercícios.
 7. **Síntese:** principais conclusões, limitações e referências.
+
+Ao final de cada unidade, os notebooks serão complementados por duas listas independentes:
+
+1. `exercicios/unidade_XX/exercicios_conceituais.md`, com questões discursivas, interpretativas e de aplicação que cubram todos os objetivos da unidade;
+2. `exercicios/unidade_XX/multipla_escolha.md`, com questões objetivas e alternativas plausíveis, acompanhado de `solucoes/unidade_XX/gabarito_multipla_escolha.md`.
+
+O gabarito ficará separado do material do estudante. Para cada questão, deverá indicar a alternativa correta, apresentar uma justificativa breve e explicar o erro conceitual dos distratores mais relevantes.
 
 Bibliotecas-base previstas: Python, NumPy, pandas, SciPy, Matplotlib, Seaborn, scikit-learn e, para regras de associação, mlxtend. O **uv** será o gerenciador exclusivo de Python, ambiente e pacotes. Dependências diretas deverão ser adicionadas ao `pyproject.toml` com `uv add`; o `uv.lock` deverá ser versionado para garantir instalações reproduzíveis.
 
@@ -131,6 +146,8 @@ Antes da Unidade I:
 
 **Atividade integradora:** formular um problema de mineração de dados, identificar tarefa, dados necessários, métrica de sucesso, riscos e etapas do KDD.
 
+**Listas da unidade:** exercícios conceituais sobre definições, tarefas, aplicações e KDD; múltipla escolha com gabarito comentado.
+
 **Critério de conclusão:** notebooks executáveis, diagrama legível, estudo de caso completo e atividade com critérios de correção.
 
 ### Unidade II — Análise de Dados
@@ -163,6 +180,8 @@ Antes da Unidade I:
    - efeito da escala e comparação prática entre métricas.
 
 **Atividade integradora:** análise exploratória documentada, incluindo tipagem dos atributos, estatísticas, visualizações, proximidades e conclusões.
+
+**Listas da unidade:** exercícios conceituais com cálculos e interpretação; múltipla escolha com gabarito comentado.
 
 **Critério de conclusão:** resultados manuais e computacionais conferem; gráficos possuem título, eixos, unidades e interpretação; atividade contempla dados mistos.
 
@@ -198,6 +217,8 @@ Antes da Unidade I:
 
 **Atividade integradora:** construir um pipeline reprodutível para um conjunto propositalmente problemático e justificar cada transformação.
 
+**Listas da unidade:** exercícios conceituais sobre diagnóstico e decisões de preparação; múltipla escolha com gabarito comentado.
+
 **Critério de conclusão:** pipeline separa ajuste e transformação, não apresenta vazamento, preserva dados brutos e mede o efeito das decisões.
 
 ### Unidade IV — Mineração de Padrões
@@ -231,6 +252,8 @@ Antes da Unidade I:
    - estudo de caso aplicado.
 
 **Atividade integradora:** minerar regras, selecionar um subconjunto útil e apresentar interpretação de negócio sem atribuir causalidade indevida.
+
+**Listas da unidade:** exercícios conceituais envolvendo suporte, confiança, lift e Apriori; múltipla escolha com gabarito comentado.
 
 **Critério de conclusão:** métricas validadas manualmente, Apriori explicado passo a passo e conclusões sustentadas pelos resultados.
 
@@ -271,6 +294,8 @@ Antes da Unidade I:
 
 **Atividade integradora:** comparar pelo menos três classificadores sob o mesmo protocolo e desenvolver uma análise de regressão com diagnóstico de resíduos.
 
+**Listas da unidade:** exercícios conceituais de formulação, cálculo, comparação e interpretação de modelos; múltipla escolha com gabarito comentado.
+
 **Critério de conclusão:** ausência de vazamento, sementes fixadas, protocolo comparável, métricas interpretadas e limitações explicitadas.
 
 ### Unidade VI — Análise de Grupos
@@ -306,6 +331,8 @@ Antes da Unidade I:
 
 **Atividade integradora:** comparar três famílias de algoritmos em dados sintéticos e reais, justificando pré-processamento, métrica e escolha final.
 
+**Listas da unidade:** exercícios conceituais sobre distâncias, algoritmos e avaliação; múltipla escolha com gabarito comentado.
+
 **Critério de conclusão:** algoritmos comparados sob condições documentadas, hiperparâmetros justificados e grupos interpretados sem tratá-los como verdades naturais.
 
 ### Unidade VII — Detecção de Outliers
@@ -335,6 +362,8 @@ Antes da Unidade I:
 
 **Atividade integradora:** analisar um cenário de fraude, falha ou qualidade de dados, comparar métodos e produzir uma lista priorizada de observações para investigação.
 
+**Listas da unidade:** exercícios conceituais sobre tipos de outliers, métodos e decisões de investigação; múltipla escolha com gabarito comentado.
+
 **Critério de conclusão:** comparação considera escala, dimensionalidade e contaminação; decisões não removem automaticamente observações; limitações estão registradas.
 
 ## 8. Consolidação final
@@ -361,6 +390,7 @@ Um notebook somente será marcado como concluído quando:
 - incluir ao menos um exemplo e uma atividade;
 - explicar os resultados exibidos, em vez de apenas gerar saídas;
 - identificar fontes de dados, imagens e referências;
+- possuir as duas listas da unidade e o gabarito comentado quando for o último notebook da unidade;
 - cumprir `contexto/diretrizes_formatacao.md`;
 - passar pelos revisores definidos em `contexto/revisores/README.md`;
 - ter o checklist de consolidação aprovado.

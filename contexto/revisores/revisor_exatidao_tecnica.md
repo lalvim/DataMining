@@ -36,6 +36,13 @@ Verificar a correção de conceitos, notação, fórmulas, algoritmos, código, 
 - Incerteza, variabilidade e limitações são reconhecidas?
 - Resultados de um conjunto específico não são generalizados sem ressalva?
 
+### Listas e gabaritos
+
+- As questões conceituais possuem dados suficientes e não contêm ambiguidades técnicas?
+- Cada questão de múltipla escolha possui uma única melhor resposta?
+- A alternativa indicada no gabarito está correta?
+- As justificativas explicam adequadamente a resposta e os principais distratores?
+
 ## Procedimento mínimo
 
 1. Recalcular manualmente ao menos um exemplo central.

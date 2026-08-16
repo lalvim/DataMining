@@ -19,6 +19,8 @@ Verificar a correspondência entre notebook, programa analítico, plano de execu
 - Algum item obrigatório da ementa ficou ausente ou superficial?
 - Objetivos declarados são efetivamente ensinados e avaliados?
 - Fórmulas, exemplos, códigos e exercícios contribuem para esses objetivos?
+- A lista conceitual e a lista de múltipla escolha cobrem conjuntamente todos os objetivos da unidade?
+- O gabarito comentado corresponde exatamente às questões e alternativas publicadas?
 
 ### Escopo
 
@@ -53,4 +55,5 @@ O parecer deve incluir:
 - nenhum tópico obrigatório relevante está ausente;
 - não há desvio substancial de escopo;
 - tempo estimado é plausível;
-- dependências entre notebooks estão coerentes.
+- dependências entre notebooks estão coerentes;
+- listas e gabarito da unidade estão completos e alinhados.

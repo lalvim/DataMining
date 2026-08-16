@@ -16,8 +16,8 @@ Estados permitidos:
 
 | Etapa | Estado | Progresso | Última atualização | Observação |
 |---|---|---:|---|---|
-| Infraestrutura e modelo | Não iniciada | 0% | — | — |
-| Unidade I — Mineração de Dados | Não iniciada | 0% | — | — |
+| Infraestrutura e modelo | Concluída | 100% | 2026-08-16 | Ambiente uv, diretórios, documentação, notebook inicial e modelo criados e validados |
+| Unidade I — Mineração de Dados | Concluída | 100% | 2026-08-16 | Notebooks, listas e gabarito produzidos, validados e aprovados |
 | Unidade II — Análise de Dados | Não iniciada | 0% | — | — |
 | Unidade III — Pré-processamento | Não iniciada | 0% | — | — |
 | Unidade IV — Mineração de Padrões | Não iniciada | 0% | — | — |
@@ -30,9 +30,9 @@ Estados permitidos:
 
 | Notebook | Conteúdo | Produção | Revisão técnica | Execução limpa | Revisão editorial |
 |---|---|---|---|---|---|
-| `00_apresentacao_e_ambiente.ipynb` | Apresentação e configuração | Pendente | Pendente | Pendente | Pendente |
-| `01_01_introducao_a_mineracao_de_dados.ipynb` | Introdução | Pendente | Pendente | Pendente | Pendente |
-| `01_02_processo_kdd.ipynb` | Processo KDD | Pendente | Pendente | Pendente | Pendente |
+| `00_apresentacao_e_ambiente.ipynb` | Apresentação e configuração | Concluída | Concluída | Aprovada | Concluída |
+| `01_01_introducao_a_mineracao_de_dados.ipynb` | Introdução | Concluída | Concluída | Aprovada | Concluída |
+| `01_02_processo_kdd.ipynb` | Processo KDD | Concluída | Concluída | Aprovada | Concluída |
 | `02_01_tipos_e_descricao_de_dados.ipynb` | Tipos e estatística descritiva | Pendente | Pendente | Pendente | Pendente |
 | `02_02_visualizacao_de_dados.ipynb` | Visualização | Pendente | Pendente | Pendente | Pendente |
 | `02_03_similaridade_e_dissimilaridade.ipynb` | Medidas de proximidade | Pendente | Pendente | Pendente | Pendente |
@@ -52,6 +52,18 @@ Estados permitidos:
 | `07_01_conceitos_e_metodos_estatisticos.ipynb` | Outliers e estatística | Pendente | Pendente | Pendente | Pendente |
 | `07_02_proximidade_densidade_e_agrupamento.ipynb` | Métodos de detecção | Pendente | Pendente | Pendente | Pendente |
 
+## Controle das listas de exercícios
+
+| Unidade | Exercícios conceituais | Múltipla escolha | Gabarito comentado | Revisão |
+|---|---|---|---|---|
+| I — Mineração de Dados | Concluída | Concluída | Concluído | Aprovada |
+| II — Análise de Dados | Pendente | Pendente | Pendente | Pendente |
+| III — Pré-processamento | Pendente | Pendente | Pendente | Pendente |
+| IV — Mineração de Padrões | Pendente | Pendente | Pendente | Pendente |
+| V — Classificação e Regressão | Pendente | Pendente | Pendente | Pendente |
+| VI — Análise de Grupos | Pendente | Pendente | Pendente | Pendente |
+| VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente |
+
 ## Histórico
 
 ### 2026-08-16
@@ -65,6 +77,17 @@ Estados permitidos:
 - Criados um modelo padronizado de parecer e um checklist de consolidação das revisões.
 - Adotado o `uv` como gerenciador exclusivo de Python, ambiente virtual e dependências.
 - Criados `pyproject.toml`, `.python-version` e `uv.lock`; a resolução foi validada com Python 3.11.
+- Instalado o ambiente `.venv` por `uv sync`, com 109 pacotes, e validada a importação das bibliotecas-base.
+- Criada a estrutura de diretórios para notebooks, dados, imagens, soluções e modelos.
+- Criados `dados/README.md`, `imagens/fontes.md` e o notebook-modelo padronizado.
+- Criado e executado sem erros `notebooks/00_apresentacao_e_ambiente.ipynb`.
+- Produzidos e executados sem erros os dois notebooks da Unidade I: introdução à mineração de dados e processo KDD.
+- Criado diagrama vetorial autoral e acessível do processo KDD.
+- Emitidos e consolidados os sete pareceres de cada notebook da Unidade I; ambos foram aprovados para publicação sem achados obrigatórios.
+- Tornadas obrigatórias, para cada unidade, uma lista conceitual em Markdown, uma lista de múltipla escolha e um gabarito comentado separado.
+- Criadas as listas conceitual e de múltipla escolha da Unidade I, ambas com 15 questões.
+- Criado gabarito separado da Unidade I, com justificativas das respostas e dos principais distratores.
+- Listas e gabarito da Unidade I aprovados nas revisões de alinhamento e exatidão técnica.
 
 ## Decisões e alterações de escopo
 
@@ -76,4 +99,4 @@ Estados permitidos:
 
 ## Pendências e bloqueios
 
-Nenhum bloqueio registrado. A configuração inicial e o lock do ambiente estão prontos; as próximas ações são instalar com `uv sync`, validar a execução e criar o notebook-modelo.
+Nenhum bloqueio registrado. A próxima ação é produzir os três notebooks da Unidade II — Análise de Dados.
