@@ -37,6 +37,12 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Processo KDD](notebooks/unidade_01/01_02_processo_kdd.ipynb)
    - [Exercícios conceituais](exercicios/unidade_01/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_01/multipla_escolha.md)
+3. Unidade II — Análise de Dados
+   - [Tipos e descrição de dados](notebooks/unidade_02/02_01_tipos_e_descricao_de_dados.ipynb)
+   - [Visualização de dados](notebooks/unidade_02/02_02_visualizacao_de_dados.ipynb)
+   - [Similaridade e dissimilaridade](notebooks/unidade_02/02_03_similaridade_e_dissimilaridade.ipynb)
+   - [Exercícios conceituais](exercicios/unidade_02/exercicios_conceituais.md)
+   - [Questões de múltipla escolha](exercicios/unidade_02/multipla_escolha.md)
 
 Os gabaritos ficam em `solucoes/` para permitir distribuição separada do material do estudante.
 

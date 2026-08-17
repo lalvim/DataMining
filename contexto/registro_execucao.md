@@ -18,7 +18,7 @@ Estados permitidos:
 |---|---|---:|---|---|
 | Infraestrutura e modelo | Concluída | 100% | 2026-08-16 | Ambiente uv, diretórios, documentação, notebook inicial e modelo criados e validados |
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-08-16 | Notebooks, listas e gabarito produzidos, validados e aprovados |
-| Unidade II — Análise de Dados | Não iniciada | 0% | — | — |
+| Unidade II — Análise de Dados | Concluída | 100% | 2026-08-16 | Três notebooks, listas e gabarito executados, revisados e aprovados |
 | Unidade III — Pré-processamento | Não iniciada | 0% | — | — |
 | Unidade IV — Mineração de Padrões | Não iniciada | 0% | — | — |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
@@ -33,9 +33,9 @@ Estados permitidos:
 | `00_apresentacao_e_ambiente.ipynb` | Apresentação e configuração | Concluída | Concluída | Aprovada | Concluída |
 | `01_01_introducao_a_mineracao_de_dados.ipynb` | Introdução | Concluída | Concluída | Aprovada | Concluída |
 | `01_02_processo_kdd.ipynb` | Processo KDD | Concluída | Concluída | Aprovada | Concluída |
-| `02_01_tipos_e_descricao_de_dados.ipynb` | Tipos e estatística descritiva | Pendente | Pendente | Pendente | Pendente |
-| `02_02_visualizacao_de_dados.ipynb` | Visualização | Pendente | Pendente | Pendente | Pendente |
-| `02_03_similaridade_e_dissimilaridade.ipynb` | Medidas de proximidade | Pendente | Pendente | Pendente | Pendente |
+| `02_01_tipos_e_descricao_de_dados.ipynb` | Tipos e estatística descritiva | Concluída | Concluída | Aprovada | Concluída |
+| `02_02_visualizacao_de_dados.ipynb` | Visualização | Concluída | Concluída | Aprovada | Concluída |
+| `02_03_similaridade_e_dissimilaridade.ipynb` | Medidas de proximidade | Concluída | Concluída | Aprovada | Concluída |
 | `03_01_qualidade_limpeza_e_integracao.ipynb` | Qualidade e limpeza | Pendente | Pendente | Pendente | Pendente |
 | `03_02_transformacao_e_discretizacao.ipynb` | Transformação | Pendente | Pendente | Pendente | Pendente |
 | `03_03_reducao_de_dados.ipynb` | Redução de dados | Pendente | Pendente | Pendente | Pendente |
@@ -57,7 +57,7 @@ Estados permitidos:
 | Unidade | Exercícios conceituais | Múltipla escolha | Gabarito comentado | Revisão |
 |---|---|---|---|---|
 | I — Mineração de Dados | Concluída | Concluída | Concluído | Aprovada |
-| II — Análise de Dados | Pendente | Pendente | Pendente | Pendente |
+| II — Análise de Dados | Concluída | Concluída | Concluído | Aprovada |
 | III — Pré-processamento | Pendente | Pendente | Pendente | Pendente |
 | IV — Mineração de Padrões | Pendente | Pendente | Pendente | Pendente |
 | V — Classificação e Regressão | Pendente | Pendente | Pendente | Pendente |
@@ -88,6 +88,12 @@ Estados permitidos:
 - Criadas as listas conceitual e de múltipla escolha da Unidade I, ambas com 15 questões.
 - Criado gabarito separado da Unidade I, com justificativas das respostas e dos principais distratores.
 - Listas e gabarito da Unidade I aprovados nas revisões de alinhamento e exatidão técnica.
+- Produzidos os três notebooks da Unidade II: tipos e descrição, visualização e medidas de proximidade.
+- Executadas 43 células da Unidade II, incluindo 14 células de código, sem saídas de erro e com IDs válidos.
+- Criadas as listas da Unidade II: 16 exercícios conceituais, 15 questões objetivas e gabarito comentado separado.
+- Listas da Unidade II aprovadas nas revisões de alinhamento e exatidão técnica.
+- Emitidos 21 pareceres especializados para os três notebooks da Unidade II; todos foram aprovados sem achados obrigatórios.
+- Consolidados os três notebooks da Unidade II como aprovados para publicação.
 
 ## Decisões e alterações de escopo
 
@@ -99,4 +105,4 @@ Estados permitidos:
 
 ## Pendências e bloqueios
 
-Nenhum bloqueio registrado. A próxima ação é produzir os três notebooks da Unidade II — Análise de Dados.
+Nenhum bloqueio registrado. A próxima ação é produzir os três notebooks da Unidade III — Pré-processamento de Dados.
