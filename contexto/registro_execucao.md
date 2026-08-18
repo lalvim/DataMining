@@ -66,6 +66,13 @@ Estados permitidos:
 
 ## Histórico
 
+### 2026-08-17
+
+- Ampliado o estudo de caso do notebook `01_02_processo_kdd.ipynb` com um mapeamento explícito entre o caso e as seis etapas do KDD.
+- Diferenciadas etapas realizadas, ilustradas, planejadas e ainda não executadas no estudo.
+- Esclarecido que a função logística gera os dados sintéticos e não representa um modelo treinado.
+- Notebook reexecutado sem erros e alteração aprovada em adendo de revisão.
+
 ### 2026-08-16
 
 - Convertido o programa analítico de LaTeX para `contexto/resumo_disciplina.md`.
