@@ -42,6 +42,9 @@ Verificar a correção de conceitos, notação, fórmulas, algoritmos, código, 
 - Cada questão de múltipla escolha possui uma única melhor resposta?
 - A alternativa indicada no gabarito está correta?
 - As justificativas explicam adequadamente a resposta e os principais distratores?
+- Respostas-modelo e critérios das questões discursivas são corretos e aceitam alternativas defensáveis?
+- Soluções de código dos gabaritos executam e satisfazem o resultado solicitado?
+- O HTML do estudante está livre de respostas em scripts, comentários, atributos e metadados?
 
 ## Procedimento mínimo
 

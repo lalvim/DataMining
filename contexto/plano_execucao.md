@@ -13,7 +13,8 @@ Ao final da produção, o repositório deverá conter:
 - notebooks didáticos executáveis para todas as unidades;
 - exercícios guiados e propostos, com soluções separadas quando necessário;
 - uma lista de exercícios conceituais em Markdown para cada unidade;
-- uma lista de múltipla escolha e seu gabarito comentado para cada unidade;
+- uma lista de múltipla escolha em HTML para cada unidade;
+- gabaritos separados para a lista conceitual, a múltipla escolha e todas as atividades dos notebooks;
 - imagens e diagramas próprios ou com licença e atribuição adequadas;
 - conjuntos de dados locais, pequenos e documentados, ou rotinas reprodutíveis de obtenção;
 - ambiente Python reproduzível;
@@ -57,10 +58,13 @@ DataMining/
 ├── exercicios/
 │   └── unidade_XX/
 │       ├── exercicios_conceituais.md
-│       └── multipla_escolha.md
-└── solucoes/
+│       └── multipla_escolha.html
+└── gabaritos/
     └── unidade_XX/
-        └── gabarito_multipla_escolha.md
+        ├── gabarito_exercicios_conceituais.md
+        ├── gabarito_multipla_escolha.md
+        └── gabaritos_notebooks/
+            └── <nome_do_notebook>.md
 ```
 
 A estrutura poderá ser refinada durante a implementação, mas nomes, numeração e separação entre material didático, dados, imagens e soluções devem permanecer consistentes.
@@ -80,9 +84,9 @@ Cada assunto será desenvolvido no ciclo:
 Ao final de cada unidade, os notebooks serão complementados por duas listas independentes:
 
 1. `exercicios/unidade_XX/exercicios_conceituais.md`, com questões discursivas, interpretativas e de aplicação que cubram todos os objetivos da unidade;
-2. `exercicios/unidade_XX/multipla_escolha.md`, com questões objetivas e alternativas plausíveis, acompanhado de `solucoes/unidade_XX/gabarito_multipla_escolha.md`.
+2. `exercicios/unidade_XX/multipla_escolha.html`, com questões objetivas e alternativas plausíveis.
 
-O gabarito ficará separado do material do estudante. Para cada questão, deverá indicar a alternativa correta, apresentar uma justificativa breve e explicar o erro conceitual dos distratores mais relevantes.
+Todos os exercícios terão identificadores estáveis e gabaritos em `gabaritos/unidade_XX/`. Isso inclui as listas e cada verificação, exercício, desafio ou código incompleto apresentado nos notebooks. Questões discursivas terão resposta-modelo e critérios; múltipla escolha terá alternativa correta, justificativa e explicação dos distratores relevantes. Nenhuma resposta poderá ser embutida no HTML do estudante.
 
 Bibliotecas-base previstas: Python, NumPy, pandas, SciPy, Matplotlib, Seaborn, scikit-learn e, para regras de associação, mlxtend. O **uv** será o gerenciador exclusivo de Python, ambiente e pacotes. Dependências diretas deverão ser adicionadas ao `pyproject.toml` com `uv add`; o `uv.lock` deverá ser versionado para garantir instalações reproduzíveis.
 
@@ -390,7 +394,7 @@ Um notebook somente será marcado como concluído quando:
 - incluir ao menos um exemplo e uma atividade;
 - explicar os resultados exibidos, em vez de apenas gerar saídas;
 - identificar fontes de dados, imagens e referências;
-- possuir as duas listas da unidade e o gabarito comentado quando for o último notebook da unidade;
+- possuir as duas listas da unidade e todos os gabaritos separados quando for o último notebook da unidade;
 - cumprir `contexto/diretrizes_formatacao.md`;
 - passar pelos revisores definidos em `contexto/revisores/README.md`;
 - ter o checklist de consolidação aprovado.

@@ -17,8 +17,8 @@ Estados permitidos:
 | Etapa | Estado | Progresso | Última atualização | Observação |
 |---|---|---:|---|---|
 | Infraestrutura e modelo | Concluída | 100% | 2026-08-16 | Ambiente uv, diretórios, documentação, notebook inicial e modelo criados e validados |
-| Unidade I — Mineração de Dados | Concluída | 100% | 2026-08-16 | Notebooks, listas e gabarito produzidos, validados e aprovados |
-| Unidade II — Análise de Dados | Concluída | 100% | 2026-08-16 | Três notebooks, listas e gabarito executados, revisados e aprovados |
+| Unidade I — Mineração de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
+| Unidade II — Análise de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Não iniciada | 0% | — | — |
 | Unidade IV — Mineração de Padrões | Não iniciada | 0% | — | — |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
@@ -52,17 +52,17 @@ Estados permitidos:
 | `07_01_conceitos_e_metodos_estatisticos.ipynb` | Outliers e estatística | Pendente | Pendente | Pendente | Pendente |
 | `07_02_proximidade_densidade_e_agrupamento.ipynb` | Métodos de detecção | Pendente | Pendente | Pendente | Pendente |
 
-## Controle das listas de exercícios
+## Controle dos exercícios e gabaritos
 
-| Unidade | Exercícios conceituais | Múltipla escolha | Gabarito comentado | Revisão |
-|---|---|---|---|---|
-| I — Mineração de Dados | Concluída | Concluída | Concluído | Aprovada |
-| II — Análise de Dados | Concluída | Concluída | Concluído | Aprovada |
-| III — Pré-processamento | Pendente | Pendente | Pendente | Pendente |
-| IV — Mineração de Padrões | Pendente | Pendente | Pendente | Pendente |
-| V — Classificação e Regressão | Pendente | Pendente | Pendente | Pendente |
-| VI — Análise de Grupos | Pendente | Pendente | Pendente | Pendente |
-| VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente |
+| Unidade | Conceituais `.md` | Múltipla escolha `.html` | Gabarito conceitual | Gabarito múltipla escolha | Gabaritos dos notebooks | Revisão |
+|---|---|---|---|---|---|---|
+| I — Mineração de Dados | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
+| II — Análise de Dados | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
+| III — Pré-processamento | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
+| IV — Mineração de Padrões | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
+| V — Classificação e Regressão | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
+| VI — Análise de Grupos | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
+| VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
 
@@ -94,6 +94,14 @@ Estados permitidos:
 - Listas da Unidade II aprovadas nas revisões de alinhamento e exatidão técnica.
 - Emitidos 21 pareceres especializados para os três notebooks da Unidade II; todos foram aprovados sem achados obrigatórios.
 - Consolidados os três notebooks da Unidade II como aprovados para publicação.
+- Atualizada a diretriz: toda questão passa a exigir identificador e gabarito separado em `gabaritos/`; múltipla escolha do estudante passa a ser HTML.
+- Migrados os gabaritos objetivos das Unidades I e II para a pasta exclusiva `gabaritos/`.
+- Criados gabaritos conceituais com respostas-modelo e critérios para 15 questões da Unidade I e 16 da Unidade II.
+- Criados gabaritos separados para todas as atividades dos cinco notebooks das Unidades I e II.
+- Atribuídos identificadores estáveis às atividades e validada correspondência completa: 34 de 34 na Unidade I e 38 de 38 na Unidade II.
+- Geradas listas de múltipla escolha HTML acessíveis para as Unidades I e II por conversor reutilizável.
+- Validados 30 grupos de questões, 120 controles e 120 rótulos, sem scripts ou respostas embutidas.
+- Gabaritos e HTML das Unidades I e II aprovados nas revisões de alinhamento, exatidão e acessibilidade.
 
 ## Decisões e alterações de escopo
 
@@ -105,4 +113,4 @@ Estados permitidos:
 
 ## Pendências e bloqueios
 
-Nenhum bloqueio registrado. A próxima ação é produzir os três notebooks da Unidade III — Pré-processamento de Dados.
+Nenhum bloqueio registrado. A próxima ação é produzir a Unidade III já aplicando a política completa de gabaritos desde o início.

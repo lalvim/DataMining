@@ -21,6 +21,7 @@ Verificar a correspondência entre notebook, programa analítico, plano de execu
 - Fórmulas, exemplos, códigos e exercícios contribuem para esses objetivos?
 - A lista conceitual e a lista de múltipla escolha cobrem conjuntamente todos os objetivos da unidade?
 - O gabarito comentado corresponde exatamente às questões e alternativas publicadas?
+- Toda atividade dos notebooks possui identificador e entrada correspondente no gabarito separado?
 
 ### Escopo
 

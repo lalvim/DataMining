@@ -193,7 +193,7 @@ plt.rcParams.update({
 - Células não podem depender de execução fora de ordem.
 - Resultados demorados devem informar tempo aproximado e oferecer uma alternativa reduzida.
 
-## 10. Exercícios e soluções
+## 10. Exercícios e gabaritos
 
 Cada notebook deve conter ao menos:
 
@@ -209,7 +209,16 @@ Usar marcadores consistentes:
 > **Exercício:** implemente a comparação proposta e interprete duas métricas.
 ```
 
-Soluções extensas devem ficar em `solucoes/` ou em versão separada do notebook. Quando houver código incompleto para o estudante, usar `# TODO:` em pontos específicos e executáveis sempre que possível.
+**Todo exercício, pergunta de verificação ou atividade deve possuir gabarito associado.** Isso inclui questões nas listas, questões de múltipla escolha e atividades inseridas em células Markdown ou de código dos notebooks. Os gabaritos nunca devem ficar no mesmo arquivo distribuído ao estudante.
+
+Cada questão deve receber um identificador estável, usado sem alteração no respectivo gabarito:
+
+- `U02-C03`: exercício conceitual 3 da Unidade II;
+- `U02-M07`: múltipla escolha 7 da Unidade II;
+- `U02-NB02-E01`: exercício 1 do segundo notebook da Unidade II;
+- `U02-NB02-V01`: verificação de entendimento 1 do segundo notebook da Unidade II.
+
+Quando houver código incompleto para o estudante, usar `# TODO:` em pontos específicos e executáveis sempre que possível. A solução completa deve existir somente no arquivo correspondente em `gabaritos/`.
 
 ### Listas obrigatórias por unidade
 
@@ -217,8 +226,10 @@ Além dos exercícios inseridos nos notebooks, toda unidade deve possuir:
 
 ```text
 exercicios/unidade_XX/exercicios_conceituais.md
-exercicios/unidade_XX/multipla_escolha.md
-solucoes/unidade_XX/gabarito_multipla_escolha.md
+exercicios/unidade_XX/multipla_escolha.html
+gabaritos/unidade_XX/gabarito_exercicios_conceituais.md
+gabaritos/unidade_XX/gabarito_multipla_escolha.md
+gabaritos/unidade_XX/gabaritos_notebooks/<nome_do_notebook>.md
 ```
 
 #### Lista de exercícios conceituais
@@ -231,6 +242,7 @@ solucoes/unidade_XX/gabarito_multipla_escolha.md
 - Evitar questões respondidas apenas pela cópia literal de uma frase do material.
 - Indicar dados, fórmulas, arredondamento e produto esperado quando necessários.
 - Identificar questões desafiadoras ou opcionais sem misturá-las ao núcleo obrigatório.
+- Exibir o identificador estável de cada questão e possuir resposta correspondente em `gabarito_exercicios_conceituais.md`.
 
 Estrutura recomendada:
 
@@ -254,8 +266,11 @@ Estrutura recomendada:
 3. [Questão]
 ```
 
-#### Lista de múltipla escolha
+#### Lista de múltipla escolha em HTML
 
+- Usar um documento HTML5 autônomo, sem dependências externas obrigatórias.
+- Usar elementos semânticos, grupos de rádio associados por questão, `label` explícito e navegação por teclado.
+- Identificar cada questão com código estável visível.
 - Cada questão deve possuir enunciado autossuficiente e, preferencialmente, quatro alternativas (`A` a `D`).
 - Deve existir uma única melhor resposta, salvo indicação explícita em contrário.
 - Distratores devem ser plausíveis e baseados em erros conceituais frequentes.
@@ -264,15 +279,29 @@ Estrutura recomendada:
 - Não tornar uma questão dependente da resposta de outra.
 - Incluir questões de compreensão e aplicação, não apenas memorização.
 - Não inserir respostas ou dicas no arquivo destinado aos estudantes.
+- Não embutir respostas em JavaScript, atributos `data-*`, comentários HTML, CSS, metadados ou nomes reveladores.
+- O formulário pode permitir seleção e impressão, mas não deve corrigir automaticamente nem transmitir respostas.
 
-#### Gabarito de múltipla escolha
+#### Gabaritos separados
 
-- Ficar obrigatoriamente em `solucoes/`, separado da lista do estudante.
+- Ficar obrigatoriamente em `gabaritos/`, separado de `notebooks/` e `exercicios/`.
+- Existir para exercícios conceituais, múltipla escolha e todas as atividades dos notebooks.
+- Repetir exatamente o identificador da questão original.
+- Para questões discursivas, fornecer resposta esperada, elementos essenciais e critérios de correção; respostas alternativas defensáveis devem ser mencionadas.
 - Repetir o número da questão e indicar a alternativa correta.
 - Fornecer justificativa breve e conceitual.
 - Explicar o erro representado pelos distratores mais relevantes.
 - Referenciar notebook, seção ou bibliografia para revisão quando útil.
 - Passar por revisão de exatidão técnica e alinhamento antes da publicação.
+
+#### Gabaritos das atividades dos notebooks
+
+- Criar um arquivo por notebook em `gabaritos/unidade_XX/gabaritos_notebooks/`.
+- Incluir todas as caixas “Verifique seu entendimento”, “Exercício”, desafios, cálculos solicitados e células `TODO`.
+- Para código, fornecer solução executável e saída ou propriedade esperada.
+- Para questões abertas, apresentar uma resposta-modelo e rubrica curta, sem exigir redação idêntica.
+- Manter a mesma ordem e os mesmos identificadores do notebook.
+- Atualizar o gabarito na mesma alteração que modificar o exercício original.
 
 ## 11. Referências, autoria e direitos autorais
 
@@ -327,8 +356,12 @@ Ferramentas de validação poderão incluir execução via `jupyter nbconvert --
 - [ ] Dados documentados e transformações rastreáveis.
 - [ ] Exercícios com instruções e produto esperado.
 - [ ] Lista conceitual da unidade criada e alinhada aos objetivos.
-- [ ] Lista de múltipla escolha criada sem exposição das respostas.
-- [ ] Gabarito separado, comentado e tecnicamente revisado.
+- [ ] Lista de múltipla escolha em HTML criada, acessível e sem respostas embutidas.
+- [ ] Cada questão possui identificador estável.
+- [ ] Gabarito conceitual separado, com respostas e critérios de correção.
+- [ ] Gabarito da múltipla escolha separado e comentado.
+- [ ] Todas as atividades dos notebooks possuem gabarito separado.
+- [ ] Correspondência entre identificadores e gabaritos foi validada.
 - [ ] Referências completas.
 - [ ] Execução limpa concluída sem erros.
 - [ ] Registro de execução atualizado.
