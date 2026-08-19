@@ -66,6 +66,12 @@ Estados permitidos:
 
 ## Histórico
 
+### 2026-08-19
+
+- Incluída, no estudo de caso do notebook `01_02_processo_kdd.ipynb`, uma exploração inicial com `DataFrame.describe()` e transposição da tabela para facilitar a leitura por atributo.
+- Acrescentada a interpretação de contagem, média, desvio-padrão, quartis, extremos e da média do atributo binário `cancelou`.
+- Notebook reexecutado integralmente: 16 células, quatro células de código e nenhuma saída de erro.
+
 ### 2026-08-17
 
 - Ampliado o estudo de caso do notebook `01_02_processo_kdd.ipynb` com um mapeamento explícito entre o caso e as seis etapas do KDD.
