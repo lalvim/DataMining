@@ -68,6 +68,9 @@ Estados permitidos:
 
 ### 2026-08-19
 
+- Criada uma figura vetorial autoral com cinco painéis para comparar visualmente classificação, regressão, agrupamento, associação e detecção de outliers no notebook `01_01_introducao_a_mineracao_de_dados.ipynb`.
+- Acrescentadas legenda, descrição alternativa e ressalvas sobre separações conceituais, diferença entre classificação e agrupamento e interpretação de outliers.
+- Registradas autoria, origem conceitual e licença da nova figura em `imagens/fontes.md`; notebook reexecutado com 13 células, IDs únicos e nenhuma saída de erro.
 - Incluída, no estudo de caso do notebook `01_02_processo_kdd.ipynb`, uma exploração inicial com `DataFrame.describe()` e transposição da tabela para facilitar a leitura por atributo.
 - Acrescentada a interpretação de contagem, média, desvio-padrão, quartis, extremos e da média do atributo binário `cancelou`.
 - Explicado o objetivo da comparação entre tempo como cliente e cancelamento, incluindo pergunta exploratória, papéis das variáveis, leitura do *boxplot*, resultado esperado na simulação e limites causais e preditivos.

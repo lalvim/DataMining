@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Comparação visual de cinco tarefas de mineração de dados</title>
+  <desc id="desc">Cinco painéis representam classificação, regressão, agrupamento, associação e detecção de outliers por meio de pontos, linha de tendência, grupos, cestas de itens e uma observação isolada.</desc>
+  <defs>
+    <style>
+      .panel{fill:#fff;stroke:#bcc7d4;stroke-width:2}.heading{font:700 24px sans-serif;fill:#183153}.label{font:16px sans-serif;fill:#34495e}.small{font:14px sans-serif;fill:#526475}.axis{stroke:#708090;stroke-width:2}.dash{stroke:#526475;stroke-width:3;stroke-dasharray:8 6;fill:none}.rule{stroke:#34495e;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#34495e"/></marker>
+  </defs>
+  <rect width="1200" height="720" fill="#f4f7fa"/>
+
+  <g transform="translate(30 30)">
+    <rect class="panel" width="360" height="300" rx="16"/>
+    <text class="heading" x="24" y="42">Classificação</text>
+    <line class="axis" x1="45" y1="245" x2="325" y2="245"/><line class="axis" x1="45" y1="245" x2="45" y2="72"/>
+    <path class="dash" d="M105 242 Q170 175 292 92"/>
+    <g fill="#0072B2"><circle cx="82" cy="205" r="8"/><circle cx="115" cy="211" r="8"/><circle cx="132" cy="178" r="8"/><circle cx="170" cy="202" r="8"/><circle cx="190" cy="158" r="8"/></g>
+    <g fill="#D55E00"><circle cx="175" cy="112" r="8"/><circle cx="215" cy="130" r="8"/><circle cx="245" cy="96" r="8"/><circle cx="278" cy="118" r="8"/><circle cx="303" cy="82" r="8"/></g>
+    <text class="small" x="76" y="275">saída: classe A ou B</text>
+  </g>
+
+  <g transform="translate(420 30)">
+    <rect class="panel" width="360" height="300" rx="16"/>
+    <text class="heading" x="24" y="42">Regressão</text>
+    <line class="axis" x1="45" y1="245" x2="325" y2="245"/><line class="axis" x1="45" y1="245" x2="45" y2="72"/>
+    <path d="M58 222 Q150 198 210 142 T315 82" stroke="#009E73" stroke-width="5" fill="none"/>
+    <g fill="#4c78a8"><circle cx="70" cy="213" r="7"/><circle cx="105" cy="205" r="7"/><circle cx="135" cy="180" r="7"/><circle cx="170" cy="188" r="7"/><circle cx="205" cy="143" r="7"/><circle cx="240" cy="132" r="7"/><circle cx="270" cy="96" r="7"/><circle cx="305" cy="105" r="7"/></g>
+    <text class="small" x="81" y="275">saída: valor numérico</text>
+  </g>
+
+  <g transform="translate(810 30)">
+    <rect class="panel" width="360" height="300" rx="16"/>
+    <text class="heading" x="24" y="42">Agrupamento</text>
+    <g fill="#0072B2"><circle cx="87" cy="116" r="9"/><circle cx="112" cy="91" r="9"/><circle cx="135" cy="127" r="9"/><circle cx="95" cy="151" r="9"/><circle cx="145" cy="162" r="9"/></g>
+    <g fill="#E69F00"><circle cx="221" cy="104" r="9"/><circle cx="257" cy="83" r="9"/><circle cx="284" cy="116" r="9"/><circle cx="240" cy="145" r="9"/><circle cx="294" cy="157" r="9"/></g>
+    <g fill="#009E73"><circle cx="156" cy="207" r="9"/><circle cx="188" cy="226" r="9"/><circle cx="220" cy="204" r="9"/><circle cx="245" cy="231" r="9"/></g>
+    <text class="small" x="55" y="275">saída: grupos sem rótulos prévios</text>
+  </g>
+
+  <g transform="translate(225 370)">
+    <rect class="panel" width="360" height="300" rx="16"/>
+    <text class="heading" x="24" y="42">Associação</text>
+    <g transform="translate(42 78)">
+      <rect x="0" y="0" width="112" height="105" rx="10" fill="#e8f2fb" stroke="#0072B2" stroke-width="2"/>
+      <text class="label" x="18" y="28">Cesta 1</text><text class="small" x="17" y="57">pão</text><text class="small" x="17" y="80">leite</text>
+      <rect x="166" y="0" width="112" height="105" rx="10" fill="#fff2dc" stroke="#E69F00" stroke-width="2"/>
+      <text class="label" x="184" y="28">Cesta 2</text><text class="small" x="183" y="57">pão</text><text class="small" x="183" y="80">leite</text>
+    </g>
+    <text class="label" x="66" y="218">{pão}</text><line class="rule" x1="128" y1="212" x2="222" y2="212"/><text class="label" x="240" y="218">{leite}</text>
+    <text class="small" x="78" y="275">saída: itens e regras frequentes</text>
+  </g>
+
+  <g transform="translate(615 370)">
+    <rect class="panel" width="360" height="300" rx="16"/>
+    <text class="heading" x="24" y="42">Detecção de outliers</text>
+    <line class="axis" x1="45" y1="245" x2="325" y2="245"/><line class="axis" x1="45" y1="245" x2="45" y2="72"/>
+    <g fill="#56B4E9"><circle cx="105" cy="184" r="8"/><circle cx="126" cy="155" r="8"/><circle cx="143" cy="195" r="8"/><circle cx="165" cy="167" r="8"/><circle cx="182" cy="205" r="8"/><circle cx="198" cy="175" r="8"/><circle cx="217" cy="193" r="8"/><circle cx="151" cy="135" r="8"/></g>
+    <circle cx="285" cy="90" r="12" fill="#D55E00"/><circle cx="285" cy="90" r="22" fill="none" stroke="#D55E00" stroke-width="3"/>
+    <text class="small" x="225" y="128">observação incomum</text>
+    <text class="small" x="89" y="275">saída: escore ou alerta</text>
+  </g>
+</svg>
