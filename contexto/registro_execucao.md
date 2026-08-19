@@ -70,7 +70,8 @@ Estados permitidos:
 
 - Incluída, no estudo de caso do notebook `01_02_processo_kdd.ipynb`, uma exploração inicial com `DataFrame.describe()` e transposição da tabela para facilitar a leitura por atributo.
 - Acrescentada a interpretação de contagem, média, desvio-padrão, quartis, extremos e da média do atributo binário `cancelou`.
-- Notebook reexecutado integralmente: 16 células, quatro células de código e nenhuma saída de erro.
+- Explicado o objetivo da comparação entre tempo como cliente e cancelamento, incluindo pergunta exploratória, papéis das variáveis, leitura do *boxplot*, resultado esperado na simulação e limites causais e preditivos.
+- Notebook reexecutado integralmente: 17 células, quatro células de código, IDs únicos e nenhuma saída de erro.
 
 ### 2026-08-17
 
