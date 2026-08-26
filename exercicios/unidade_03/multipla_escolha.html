@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unidade III — Pré-processamento de Dados — Múltipla escolha</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; line-height: 1.5; }
+    body { max-width: 900px; margin: 0 auto; padding: 2rem 1rem 4rem; color: #172033; background: #fff; }
+    h1 { line-height: 1.2; }
+    .instructions { padding: 1rem; border-left: .35rem solid #0369a1; background: #f0f9ff; }
+    fieldset { margin: 1.5rem 0; padding: 1rem; border: 1px solid #94a3b8; border-radius: .5rem; }
+    legend { padding: 0 .4rem; font-weight: 650; }
+    .question-id { font-family: ui-monospace, monospace; color: #075985; }
+    .option { display: flex; gap: .65rem; align-items: baseline; margin: .7rem 0; }
+    input { inline-size: 1.15rem; block-size: 1.15rem; flex: 0 0 auto; }
+    label { cursor: pointer; }
+    input:focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }
+    @media print { body { max-width: none; padding: 0; } fieldset { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Unidade III — Pré-processamento de Dados — Múltipla escolha</h1>
+    <p class="instructions"><strong>Instruções:</strong> assinale uma alternativa por questão. Este arquivo não corrige nem envia respostas. O gabarito é distribuído separadamente.</p>
+    <form>
+    <fieldset id="U03-M01">
+      <legend><span class="question-id">U03-M01</span> — Qual exemplo representa um valor válido, mas possivelmente inexato?</legend>
+        <div class="option">
+          <input type="radio" id="U03-M01-A" name="U03-M01" value="A">
+          <label for="U03-M01-A"><strong>A.</strong> Idade registrada como -4</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M01-B" name="U03-M01" value="B">
+          <label for="U03-M01-B"><strong>B.</strong> CEP com letras em um campo numérico</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M01-C" name="U03-M01" value="C">
+          <label for="U03-M01-C"><strong>C.</strong> Idade 40 para uma pessoa que na realidade tem 37</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M01-D" name="U03-M01" value="D">
+          <label for="U03-M01-D"><strong>D.</strong> Cliente sem identificador obrigatório</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M02">
+      <legend><span class="question-id">U03-M02</span> — Qual afirmação sobre imputação pela mediana é correta?</legend>
+        <div class="option">
+          <input type="radio" id="U03-M02-A" name="U03-M02" value="A">
+          <label for="U03-M02-A"><strong>A.</strong> Recupera o valor verdadeiro de cada observação</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M02-B" name="U03-M02" value="B">
+          <label for="U03-M02-B"><strong>B.</strong> Elimina qualquer viés causado por ausência</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M02-C" name="U03-M02" value="C">
+          <label for="U03-M02-C"><strong>C.</strong> Deve sempre ser calculada em toda a base</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M02-D" name="U03-M02" value="D">
+          <label for="U03-M02-D"><strong>D.</strong> Pode reduzir artificialmente a variabilidade</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M03">
+      <legend><span class="question-id">U03-M03</span> — O que `validate=&quot;one_to_one&quot;` verifica em uma junção do pandas?</legend>
+        <div class="option">
+          <input type="radio" id="U03-M03-A" name="U03-M03" value="A">
+          <label for="U03-M03-A"><strong>A.</strong> Se as chaves são únicas em ambos os lados</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M03-B" name="U03-M03" value="B">
+          <label for="U03-M03-B"><strong>B.</strong> Se todas as colunas têm o mesmo tipo</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M03-C" name="U03-M03" value="C">
+          <label for="U03-M03-C"><strong>C.</strong> Se não existem valores ausentes</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M03-D" name="U03-M03" value="D">
+          <label for="U03-M03-D"><strong>D.</strong> Se as tabelas possuem o mesmo número de linhas</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M04">
+      <legend><span class="question-id">U03-M04</span> — Uma junção muitos-para-muitos inesperada pode:</legend>
+        <div class="option">
+          <input type="radio" id="U03-M04-A" name="U03-M04" value="A">
+          <label for="U03-M04-A"><strong>A.</strong> Padronizar automaticamente as chaves</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M04-B" name="U03-M04" value="B">
+          <label for="U03-M04-B"><strong>B.</strong> Multiplicar linhas e inflar somas</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M04-C" name="U03-M04" value="C">
+          <label for="U03-M04-C"><strong>C.</strong> Impedir qualquer correspondência</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M04-D" name="U03-M04" value="D">
+          <label for="U03-M04-D"><strong>D.</strong> Converter a junção em amostragem</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M05">
+      <legend><span class="question-id">U03-M05</span> — Qual prática preserva melhor a rastreabilidade da limpeza?</legend>
+        <div class="option">
+          <input type="radio" id="U03-M05-A" name="U03-M05" value="A">
+          <label for="U03-M05-A"><strong>A.</strong> Sobrescrever o arquivo bruto e guardar apenas o resultado</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M05-B" name="U03-M05" value="B">
+          <label for="U03-M05-B"><strong>B.</strong> Corrigir valores manualmente sem registrar a regra</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M05-C" name="U03-M05" value="C">
+          <label for="U03-M05-C"><strong>C.</strong> Preservar o bruto e produzir derivados por código versionado</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M05-D" name="U03-M05" value="D">
+          <label for="U03-M05-D"><strong>D.</strong> Remover todas as linhas incompletas</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M06">
+      <legend><span class="question-id">U03-M06</span> — Usando limites de treino 10 e 40, o min–max de um novo valor 50 é:</legend>
+        <div class="option">
+          <input type="radio" id="U03-M06-A" name="U03-M06" value="A">
+          <label for="U03-M06-A"><strong>A.</strong> 1,33 aproximadamente</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M06-B" name="U03-M06" value="B">
+          <label for="U03-M06-B"><strong>B.</strong> 1,00 exatamente</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M06-C" name="U03-M06" value="C">
+          <label for="U03-M06-C"><strong>C.</strong> 0,75 aproximadamente</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M06-D" name="U03-M06" value="D">
+          <label for="U03-M06-D"><strong>D.</strong> Impossível por definição</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M07">
+      <legend><span class="question-id">U03-M07</span> — Padronizar um atributo garante que:</legend>
+        <div class="option">
+          <input type="radio" id="U03-M07-A" name="U03-M07" value="A">
+          <label for="U03-M07-A"><strong>A.</strong> Seus valores fiquem entre zero e um</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M07-B" name="U03-M07" value="B">
+          <label for="U03-M07-B"><strong>B.</strong> Sua distribuição se torne normal</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M07-C" name="U03-M07" value="C">
+          <label for="U03-M07-C"><strong>C.</strong> Seus outliers sejam removidos</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M07-D" name="U03-M07" value="D">
+          <label for="U03-M07-D"><strong>D.</strong> No conjunto de ajuste, ele fique centrado e expresso em unidades de desvio-padrão</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M08">
+      <legend><span class="question-id">U03-M08</span> — Para um atributo nominal como município, qual representação evita impor ordem arbitrária?</legend>
+        <div class="option">
+          <input type="radio" id="U03-M08-A" name="U03-M08" value="A">
+          <label for="U03-M08-A"><strong>A.</strong> Substituir por ordem alfabética 1, 2, 3</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M08-B" name="U03-M08" value="B">
+          <label for="U03-M08-B"><strong>B.</strong> Codificação one-hot</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M08-C" name="U03-M08" value="C">
+          <label for="U03-M08-C"><strong>C.</strong> Usar a média dos nomes</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M08-D" name="U03-M08" value="D">
+          <label for="U03-M08-D"><strong>D.</strong> Aplicar logaritmo</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M09">
+      <legend><span class="question-id">U03-M09</span> — Em relação à discretização por quantis, é correto afirmar que:</legend>
+        <div class="option">
+          <input type="radio" id="U03-M09-A" name="U03-M09" value="A">
+          <label for="U03-M09-A"><strong>A.</strong> Seus intervalos sempre têm a mesma largura</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M09-B" name="U03-M09" value="B">
+          <label for="U03-M09-B"><strong>B.</strong> Ela não perde informação</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M09-C" name="U03-M09" value="C">
+          <label for="U03-M09-C"><strong>C.</strong> Busca frequências semelhantes e aprende limites da amostra</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M09-D" name="U03-M09" value="D">
+          <label for="U03-M09-D"><strong>D.</strong> Seus limites independem de valores repetidos</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M10">
+      <legend><span class="question-id">U03-M10</span> — Qual fluxo evita contaminação do teste?</legend>
+        <div class="option">
+          <input type="radio" id="U03-M10-A" name="U03-M10" value="A">
+          <label for="U03-M10-A"><strong>A.</strong> Ajustar escala em todos os dados e depois separar</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M10-B" name="U03-M10" value="B">
+          <label for="U03-M10-B"><strong>B.</strong> Separar, ajustar transformações no treino e apenas transformar o teste</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M10-C" name="U03-M10" value="C">
+          <label for="U03-M10-C"><strong>C.</strong> Ajustar um imputador diferente no teste</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M10-D" name="U03-M10" value="D">
+          <label for="U03-M10-D"><strong>D.</strong> Escolher transformações depois de observar a métrica final do teste</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M11">
+      <legend><span class="question-id">U03-M11</span> — Preservar a proporção da classe em uma amostra estratificada garante:</legend>
+        <div class="option">
+          <input type="radio" id="U03-M11-A" name="U03-M11" value="A">
+          <label for="U03-M11-A"><strong>A.</strong> Ausência de viés de coleta</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M11-B" name="U03-M11" value="B">
+          <label for="U03-M11-B"><strong>B.</strong> Representatividade em todos os atributos</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M11-C" name="U03-M11" value="C">
+          <label for="U03-M11-C"><strong>C.</strong> Igualdade de todas as estatísticas</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M11-D" name="U03-M11" value="D">
+          <label for="U03-M11-D"><strong>D.</strong> Apenas controle aproximado da distribuição usada na estratificação</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M12">
+      <legend><span class="question-id">U03-M12</span> — Qual alternativa descreve seleção de atributos?</legend>
+        <div class="option">
+          <input type="radio" id="U03-M12-A" name="U03-M12" value="A">
+          <label for="U03-M12-A"><strong>A.</strong> Manter um subconjunto das colunas originais</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M12-B" name="U03-M12" value="B">
+          <label for="U03-M12-B"><strong>B.</strong> Criar componentes como combinações das colunas</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M12-C" name="U03-M12" value="C">
+          <label for="U03-M12-C"><strong>C.</strong> Selecionar apenas algumas linhas</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M12-D" name="U03-M12" value="D">
+          <label for="U03-M12-D"><strong>D.</strong> Calcular médias mensais</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M13">
+      <legend><span class="question-id">U03-M13</span> — Antes da PCA, a padronização costuma ser importante porque:</legend>
+        <div class="option">
+          <input type="radio" id="U03-M13-A" name="U03-M13" value="A">
+          <label for="U03-M13-A"><strong>A.</strong> PCA exige entradas entre zero e um</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M13-B" name="U03-M13" value="B">
+          <label for="U03-M13-B"><strong>B.</strong> Ela transforma categorias em números</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M13-C" name="U03-M13" value="C">
+          <label for="U03-M13-C"><strong>C.</strong> A variância depende da escala e pode ser dominada por atributos de maior magnitude</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M13-D" name="U03-M13" value="D">
+          <label for="U03-M13-D"><strong>D.</strong> Ela faz os componentes usarem o alvo</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M14">
+      <legend><span class="question-id">U03-M14</span> — Preservar 95% da variância na PCA significa que:</legend>
+        <div class="option">
+          <input type="radio" id="U03-M14-A" name="U03-M14" value="A">
+          <label for="U03-M14-A"><strong>A.</strong> O modelo preservará exatamente 95% da acurácia</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M14-B" name="U03-M14" value="B">
+          <label for="U03-M14-B"><strong>B.</strong> A soma da variância explicada pelos componentes mantidos é 95% da variância considerada</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M14-C" name="U03-M14" value="C">
+          <label for="U03-M14-C"><strong>C.</strong> Apenas 5% das linhas foram removidas</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M14-D" name="U03-M14" value="D">
+          <label for="U03-M14-D"><strong>D.</strong> A reconstrução não tem erro</label>
+        </div>
+    </fieldset>
+    <fieldset id="U03-M15">
+      <legend><span class="question-id">U03-M15</span> — Qual medida avalia diretamente a fidelidade de uma reconstrução PCA no espaço padronizado?</legend>
+        <div class="option">
+          <input type="radio" id="U03-M15-A" name="U03-M15" value="A">
+          <label for="U03-M15-A"><strong>A.</strong> Número de classes</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M15-B" name="U03-M15" value="B">
+          <label for="U03-M15-B"><strong>B.</strong> Taxa de ausências</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M15-C" name="U03-M15" value="C">
+          <label for="U03-M15-C"><strong>C.</strong> Cardinalidade da junção</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U03-M15-D" name="U03-M15" value="D">
+          <label for="U03-M15-D"><strong>D.</strong> RMSE entre valores originais e reconstruídos</label>
+        </div>
+    </fieldset>
+    </form>
+  </main>
+</body>
+</html>

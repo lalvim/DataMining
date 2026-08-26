@@ -19,7 +19,7 @@ Estados permitidos:
 | Infraestrutura e modelo | Concluída | 100% | 2026-08-16 | Ambiente uv, diretórios, documentação, notebook inicial e modelo criados e validados |
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
-| Unidade III — Pré-processamento | Não iniciada | 0% | — | — |
+| Unidade III — Pré-processamento | Concluída | 100% | 2026-08-26 | Três notebooks, listas, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Não iniciada | 0% | — | — |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
@@ -36,9 +36,9 @@ Estados permitidos:
 | `02_01_tipos_e_descricao_de_dados.ipynb` | Tipos e estatística descritiva | Concluída | Concluída | Aprovada | Concluída |
 | `02_02_visualizacao_de_dados.ipynb` | Visualização | Concluída | Concluída | Aprovada | Concluída |
 | `02_03_similaridade_e_dissimilaridade.ipynb` | Medidas de proximidade | Concluída | Concluída | Aprovada | Concluída |
-| `03_01_qualidade_limpeza_e_integracao.ipynb` | Qualidade e limpeza | Pendente | Pendente | Pendente | Pendente |
-| `03_02_transformacao_e_discretizacao.ipynb` | Transformação | Pendente | Pendente | Pendente | Pendente |
-| `03_03_reducao_de_dados.ipynb` | Redução de dados | Pendente | Pendente | Pendente | Pendente |
+| `03_01_qualidade_limpeza_e_integracao.ipynb` | Qualidade e limpeza | Concluída | Concluída | Aprovada | Concluída |
+| `03_02_transformacao_e_discretizacao.ipynb` | Transformação | Concluída | Concluída | Aprovada | Concluída |
+| `03_03_reducao_de_dados.ipynb` | Redução de dados | Concluída | Concluída | Aprovada | Concluída |
 | `04_01_itemsets_e_regras_de_associacao.ipynb` | Regras de associação | Pendente | Pendente | Pendente | Pendente |
 | `04_02_algoritmo_apriori.ipynb` | Apriori | Pendente | Pendente | Pendente | Pendente |
 | `04_03_avaliacao_e_padroes_sequenciais.ipynb` | Avaliação e sequências | Pendente | Pendente | Pendente | Pendente |
@@ -58,13 +58,25 @@ Estados permitidos:
 |---|---|---|---|---|---|---|
 | I — Mineração de Dados | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | II — Análise de Dados | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
-| III — Pré-processamento | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
+| III — Pré-processamento | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | IV — Mineração de Padrões | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 | V — Classificação e Regressão | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 | VI — Análise de Grupos | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-08-26
+
+- Produzidos os três notebooks da Unidade III: qualidade, limpeza e integração; transformação e discretização; e redução de dados.
+- Demonstrados diagnóstico antes/depois, preservação de dados brutos, imputação, tratamento de duplicatas, integração com cardinalidade validada, escalonamento, codificação, discretização e pipelines sem vazamento.
+- Desenvolvidas amostragem estratificada, agregação e PCA com fórmulas, variância acumulada, taxa de compressão e erro de reconstrução.
+- Criadas 16 questões conceituais, 15 questões objetivas em HTML e gabaritos comentados separados.
+- Criados gabaritos para as sete atividades dos notebooks, incluindo a atividade integradora, com soluções executáveis e rubricas.
+- Emitidos e consolidados os sete pareceres especializados de cada notebook; listas e HTML também foram aprovados.
+- Ambiente auditado com `uv sync --frozen`; executadas 40 células, incluindo 17 de código, sem saídas de erro e com IDs únicos.
+- Validada correspondência completa dos identificadores: 16 conceituais, 15 objetivas e sete atividades internas.
+- Validado o HTML com 15 grupos, 60 controles, 60 rótulos e nenhum script ou resposta embutida.
 
 ### 2026-08-19
 
