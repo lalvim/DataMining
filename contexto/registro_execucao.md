@@ -19,7 +19,7 @@ Estados permitidos:
 | Infraestrutura e modelo | Concluída | 100% | 2026-08-16 | Ambiente uv, diretórios, documentação, notebook inicial e modelo criados e validados |
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
-| Unidade III — Pré-processamento | Concluída | 100% | 2026-08-26 | Três notebooks, listas, gabaritos e pareceres validados |
+| Unidade III — Pré-processamento | Concluída | 100% | 2026-08-31 | Três notebooks, listas, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Não iniciada | 0% | — | — |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
@@ -65,6 +65,14 @@ Estados permitidos:
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-08-31
+
+- Ampliado o notebook `03_02_transformacao_e_discretizacao.ipynb` com explicações sobre os papéis das distribuições lognormal, Poisson e binomial na geração dos dados sintéticos.
+- Esclarecido que os parâmetros da lognormal descrevem a normal subjacente ao logaritmo, que $\lambda$ controla a contagem de Poisson e que `binomial(1, p)` realiza um ensaio de Bernoulli por cliente.
+- Explicados a função logística usada apenas na simulação, o objetivo e os limites de `log1p` e a interpretação da assimetria calculada por `skew`.
+- Incluída interpretação da saída: `skew` da renda passou de 2,26 na escala original para -0,06 após `log1p`, sem afirmar normalidade.
+- Notebook reexecutado integralmente: 15 células, cinco células de código, IDs únicos e nenhuma saída de erro.
 
 ### 2026-08-26
 
