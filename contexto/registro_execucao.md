@@ -72,7 +72,9 @@ Estados permitidos:
 - Esclarecido que os parâmetros da lognormal descrevem a normal subjacente ao logaritmo, que $\lambda$ controla a contagem de Poisson e que `binomial(1, p)` realiza um ensaio de Bernoulli por cliente.
 - Explicados a função logística usada apenas na simulação, o objetivo e os limites de `log1p` e a interpretação da assimetria calculada por `skew`.
 - Incluída interpretação da saída: `skew` da renda passou de 2,26 na escala original para -0,06 após `log1p`, sem afirmar normalidade.
-- Notebook reexecutado integralmente: 15 células, cinco células de código, IDs únicos e nenhuma saída de erro.
+- Criada uma figura de três painéis para visualizar renda lognormal, contagens de Poisson e resultados binários gerados por `binomial(1, p)`.
+- Criada uma comparação visual da renda antes e depois de `log1p`, com os valores de `skew` nos títulos e interpretação textual acessível.
+- Notebook reexecutado integralmente: 20 células, sete células de código, duas figuras, IDs únicos e nenhuma saída de erro.
 
 ### 2026-08-26
 
