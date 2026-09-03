@@ -75,7 +75,10 @@ Estados permitidos:
 - Incluída uma seção própria sobre Gower, com fórmula ponderada, contribuições para atributos numéricos, nominais, ordinais e binários, tratamento de ausências e limitações.
 - Implementado exemplo didático com perfis mistos; a matriz resultou em 0,132 para Ana–Bruno, 0,917 para Ana–Carla e 0,973 para Bruno–Carla, confirmando o cálculo manual.
 - Corrigida a fórmula da contribuição numérica na tabela de Gower: barras de valor absoluto passaram de caracteres `|`, interpretados como divisores da tabela Markdown, para `\lvert` e `\rvert` em LaTeX.
-- Notebook reexecutado integralmente: 21 células, sete células de código, IDs únicos e nenhuma saída de erro.
+- Incluída ilustração geométrica dos caminhos Euclidiano e Manhattan para os mesmos dois pontos, com valores 5 e 7.
+- Incluída decomposição visual da distância Manhattan antes e depois da padronização, evidenciando a dominação original da renda sobre a idade.
+- Incluída figura de Gower com barras empilhadas das contribuições por atributo e mapa de calor da matriz final.
+- Notebook reexecutado e figuras inspecionadas: 29 células, dez células de código, três figuras, IDs únicos e nenhuma saída de erro.
 
 ### 2026-08-31
 
