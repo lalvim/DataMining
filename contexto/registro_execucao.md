@@ -72,7 +72,10 @@ Estados permitidos:
 - Criada tabela comparativa de Euclidiana, Manhattan, Minkowski, cosseno, Jaccard e Gower, com situações de uso, exemplos e cuidados.
 - Acrescentado roteiro de decisão sobre finalidade, tipos de atributos, invariâncias, ausências conjuntas, escala, casos especiais e validação.
 - Reforçado que a escolha formaliza o significado de proximidade e pode alterar vizinhos, grupos e casos atípicos; não existe medida universalmente melhor.
-- Notebook reexecutado integralmente: 16 células, cinco células de código, IDs únicos e nenhuma saída de erro.
+- Incluída uma seção própria sobre Gower, com fórmula ponderada, contribuições para atributos numéricos, nominais, ordinais e binários, tratamento de ausências e limitações.
+- Implementado exemplo didático com perfis mistos; a matriz resultou em 0,132 para Ana–Bruno, 0,917 para Ana–Carla e 0,973 para Bruno–Carla, confirmando o cálculo manual.
+- Corrigida a fórmula da contribuição numérica na tabela de Gower: barras de valor absoluto passaram de caracteres `|`, interpretados como divisores da tabela Markdown, para `\lvert` e `\rvert` em LaTeX.
+- Notebook reexecutado integralmente: 21 células, sete células de código, IDs únicos e nenhuma saída de erro.
 
 ### 2026-08-31
 
