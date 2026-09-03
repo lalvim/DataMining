@@ -18,7 +18,7 @@ Estados permitidos:
 |---|---|---:|---|---|
 | Infraestrutura e modelo | Concluída | 100% | 2026-08-16 | Ambiente uv, diretórios, documentação, notebook inicial e modelo criados e validados |
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
-| Unidade II — Análise de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
+| Unidade II — Análise de Dados | Concluída | 100% | 2026-09-02 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-08-31 | Três notebooks, listas, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Não iniciada | 0% | — | — |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
@@ -65,6 +65,14 @@ Estados permitidos:
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-09-02
+
+- Incluída, antes da síntese do notebook `02_03_similaridade_e_dissimilaridade.ipynb`, a seção “Como escolher uma medida de proximidade”.
+- Criada tabela comparativa de Euclidiana, Manhattan, Minkowski, cosseno, Jaccard e Gower, com situações de uso, exemplos e cuidados.
+- Acrescentado roteiro de decisão sobre finalidade, tipos de atributos, invariâncias, ausências conjuntas, escala, casos especiais e validação.
+- Reforçado que a escolha formaliza o significado de proximidade e pode alterar vizinhos, grupos e casos atípicos; não existe medida universalmente melhor.
+- Notebook reexecutado integralmente: 16 células, cinco células de código, IDs únicos e nenhuma saída de erro.
 
 ### 2026-08-31
 
