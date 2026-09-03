@@ -78,7 +78,9 @@ Estados permitidos:
 - Incluída ilustração geométrica dos caminhos Euclidiano e Manhattan para os mesmos dois pontos, com valores 5 e 7.
 - Incluída decomposição visual da distância Manhattan antes e depois da padronização, evidenciando a dominação original da renda sobre a idade.
 - Incluída figura de Gower com barras empilhadas das contribuições por atributo e mapa de calor da matriz final.
-- Notebook reexecutado e figuras inspecionadas: 29 células, dez células de código, três figuras, IDs únicos e nenhuma saída de erro.
+- Incluída figura 3D do cosseno com vetores originais e normalizados, evidenciando que A e B possuem magnitudes diferentes, mas a mesma direção e o mesmo ponto após normalização.
+- Incluída figura de Jaccard com grade de presenças binárias e comparação entre interseção, união e ausência conjunta ignorada.
+- Notebook reexecutado e figuras inspecionadas: 35 células, 12 células de código, cinco figuras, IDs únicos e nenhuma saída de erro.
 
 ### 2026-08-31
 
