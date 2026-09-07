@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unidade IV — Mineração de Padrões — Múltipla escolha</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; line-height: 1.5; }
+    body { max-width: 900px; margin: 0 auto; padding: 2rem 1rem 4rem; color: #172033; background: #fff; }
+    h1 { line-height: 1.2; }
+    .instructions { padding: 1rem; border-left: .35rem solid #0369a1; background: #f0f9ff; }
+    fieldset { margin: 1.5rem 0; padding: 1rem; border: 1px solid #94a3b8; border-radius: .5rem; }
+    legend { padding: 0 .4rem; font-weight: 650; }
+    .question-id { font-family: ui-monospace, monospace; color: #075985; }
+    .option { display: flex; gap: .65rem; align-items: baseline; margin: .7rem 0; }
+    input { inline-size: 1.15rem; block-size: 1.15rem; flex: 0 0 auto; }
+    label { cursor: pointer; }
+    input:focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }
+    @media print { body { max-width: none; padding: 0; } fieldset { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Unidade IV — Mineração de Padrões — Múltipla escolha</h1>
+    <p class="instructions"><strong>Instruções:</strong> assinale uma alternativa por questão. Este arquivo não corrige nem envia respostas. O gabarito é distribuído separadamente.</p>
+    <form>
+    <fieldset id="U04-M01">
+      <legend><span class="question-id">U04-M01</span> — O suporte de uma regra mede:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M01-A" name="U04-M01" value="A">
+          <label for="U04-M01-A"><strong>A.</strong> A proporção de transações com antecedente e consequente</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M01-B" name="U04-M01" value="B">
+          <label for="U04-M01-B"><strong>B.</strong> Apenas a frequência do consequente</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M01-C" name="U04-M01" value="C">
+          <label for="U04-M01-C"><strong>C.</strong> A probabilidade de causalidade</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M01-D" name="U04-M01" value="D">
+          <label for="U04-M01-D"><strong>D.</strong> O número de candidatos podados</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M02">
+      <legend><span class="question-id">U04-M02</span> — Se sup(A)=0,4 e sup(A,B)=0,3, a confiança A→B é:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M02-A" name="U04-M02" value="A">
+          <label for="U04-M02-A"><strong>A.</strong> 0,12</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M02-B" name="U04-M02" value="B">
+          <label for="U04-M02-B"><strong>B.</strong> 0,30</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M02-C" name="U04-M02" value="C">
+          <label for="U04-M02-C"><strong>C.</strong> 0,75</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M02-D" name="U04-M02" value="D">
+          <label for="U04-M02-D"><strong>D.</strong> 1,33</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M03">
+      <legend><span class="question-id">U04-M03</span> — Confiança 0,8 e suporte do consequente 0,5 produzem lift:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M03-A" name="U04-M03" value="A">
+          <label for="U04-M03-A"><strong>A.</strong> 0,4</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M03-B" name="U04-M03" value="B">
+          <label for="U04-M03-B"><strong>B.</strong> 1,6</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M03-C" name="U04-M03" value="C">
+          <label for="U04-M03-C"><strong>C.</strong> 2,5</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M03-D" name="U04-M03" value="D">
+          <label for="U04-M03-D"><strong>D.</strong> 0,625</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M04">
+      <legend><span class="question-id">U04-M04</span> — Um lift menor que 1 indica:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M04-A" name="U04-M04" value="A">
+          <label for="U04-M04-A"><strong>A.</strong> Causalidade negativa</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M04-B" name="U04-M04" value="B">
+          <label for="U04-M04-B"><strong>B.</strong> Regra necessariamente inútil</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M04-C" name="U04-M04" value="C">
+          <label for="U04-M04-C"><strong>C.</strong> Confiança igual a zero</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M04-D" name="U04-M04" value="D">
+          <label for="U04-M04-D"><strong>D.</strong> Coocorrência abaixo da esperada sob independência</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M05">
+      <legend><span class="question-id">U04-M05</span> — Regras inversas sempre compartilham:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M05-A" name="U04-M05" value="A">
+          <label for="U04-M05-A"><strong>A.</strong> Confiança</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M05-B" name="U04-M05" value="B">
+          <label for="U04-M05-B"><strong>B.</strong> Antecedente</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M05-C" name="U04-M05" value="C">
+          <label for="U04-M05-C"><strong>C.</strong> Suporte e lift</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M05-D" name="U04-M05" value="D">
+          <label for="U04-M05-D"><strong>D.</strong> Convicção</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M06">
+      <legend><span class="question-id">U04-M06</span> — A propriedade Apriori afirma que:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M06-A" name="U04-M06" value="A">
+          <label for="U04-M06-A"><strong>A.</strong> Supersets de itemsets infrequentes são infrequentes</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M06-B" name="U04-M06" value="B">
+          <label for="U04-M06-B"><strong>B.</strong> Toda união de frequentes é frequente</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M06-C" name="U04-M06" value="C">
+          <label for="U04-M06-C"><strong>C.</strong> Confiança é antimonótona</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M06-D" name="U04-M06" value="D">
+          <label for="U04-M06-D"><strong>D.</strong> Lift cresce com o tamanho</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M07">
+      <legend><span class="question-id">U04-M07</span> — A poda de um candidato de tamanho 3 ocorre quando:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M07-A" name="U04-M07" value="A">
+          <label for="U04-M07-A"><strong>A.</strong> Seu lift ainda não foi calculado</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M07-B" name="U04-M07" value="B">
+          <label for="U04-M07-B"><strong>B.</strong> Algum subconjunto de tamanho 2 é infrequente</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M07-C" name="U04-M07" value="C">
+          <label for="U04-M07-C"><strong>C.</strong> Ele possui três itens distintos</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M07-D" name="U04-M07" value="D">
+          <label for="U04-M07-D"><strong>D.</strong> Sua confiança é alta</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M08">
+      <legend><span class="question-id">U04-M08</span> — Reduzir o suporte mínimo tende a:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M08-A" name="U04-M08" value="A">
+          <label for="U04-M08-A"><strong>A.</strong> Reduzir todos os resultados</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M08-B" name="U04-M08" value="B">
+          <label for="U04-M08-B"><strong>B.</strong> Manter custo constante</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M08-C" name="U04-M08" value="C">
+          <label for="U04-M08-C"><strong>C.</strong> Garantir utilidade</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M08-D" name="U04-M08" value="D">
+          <label for="U04-M08-D"><strong>D.</strong> Aumentar itemsets e candidatos</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M09">
+      <legend><span class="question-id">U04-M09</span> — Qual medida expressa diferença absoluta diante da independência?</legend>
+        <div class="option">
+          <input type="radio" id="U04-M09-A" name="U04-M09" value="A">
+          <label for="U04-M09-A"><strong>A.</strong> Alavancagem</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M09-B" name="U04-M09" value="B">
+          <label for="U04-M09-B"><strong>B.</strong> Confiança</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M09-C" name="U04-M09" value="C">
+          <label for="U04-M09-C"><strong>C.</strong> Suporte do antecedente</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M09-D" name="U04-M09" value="D">
+          <label for="U04-M09-D"><strong>D.</strong> Convicção</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M10">
+      <legend><span class="question-id">U04-M10</span> — Uma regra forte por limiares:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M10-A" name="U04-M10" value="A">
+          <label for="U04-M10-A"><strong>A.</strong> É causal</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M10-B" name="U04-M10" value="B">
+          <label for="U04-M10-B"><strong>B.</strong> É sempre acionável</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M10-C" name="U04-M10" value="C">
+          <label for="U04-M10-C"><strong>C.</strong> Ainda precisa de estabilidade e utilidade</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M10-D" name="U04-M10" value="D">
+          <label for="U04-M10-D"><strong>D.</strong> Dispensa contagens</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M11">
+      <legend><span class="question-id">U04-M11</span> — O que diferencia sequência de itemset?</legend>
+        <div class="option">
+          <input type="radio" id="U04-M11-A" name="U04-M11" value="A">
+          <label for="U04-M11-A"><strong>A.</strong> Sequência preserva ordem de eventos</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M11-B" name="U04-M11" value="B">
+          <label for="U04-M11-B"><strong>B.</strong> Itemset sempre tem um item</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M11-C" name="U04-M11" value="C">
+          <label for="U04-M11-C"><strong>C.</strong> Sequência não tem suporte</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M11-D" name="U04-M11" value="D">
+          <label for="U04-M11-D"><strong>D.</strong> Itemset exige tempo</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M12">
+      <legend><span class="question-id">U04-M12</span> — O padrão ⟨A,C⟩ ocorre em:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M12-A" name="U04-M12" value="A">
+          <label for="U04-M12-A"><strong>A.</strong> Apenas ⟨C,A⟩</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M12-B" name="U04-M12" value="B">
+          <label for="U04-M12-B"><strong>B.</strong> ⟨A,B,C⟩</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M12-C" name="U04-M12" value="C">
+          <label for="U04-M12-C"><strong>C.</strong> Apenas quando A e C são adjacentes</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M12-D" name="U04-M12" value="D">
+          <label for="U04-M12-D"><strong>D.</strong> Qualquer sequência com A e C</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M13">
+      <legend><span class="question-id">U04-M13</span> — Suporte sequencial por cliente conta:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M13-A" name="U04-M13" value="A">
+          <label for="U04-M13-A"><strong>A.</strong> Toda repetição do padrão</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M13-B" name="U04-M13" value="B">
+          <label for="U04-M13-B"><strong>B.</strong> O número de eventos</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M13-C" name="U04-M13" value="C">
+          <label for="U04-M13-C"><strong>C.</strong> Clientes com ao menos uma ocorrência</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M13-D" name="U04-M13" value="D">
+          <label for="U04-M13-D"><strong>D.</strong> Apenas eventos consecutivos</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M14">
+      <legend><span class="question-id">U04-M14</span> — Lift 2 para promoção→compra permite concluir que:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M14-A" name="U04-M14" value="A">
+          <label for="U04-M14-A"><strong>A.</strong> A promoção dobrou causalmente vendas</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M14-B" name="U04-M14" value="B">
+          <label for="U04-M14-B"><strong>B.</strong> Existe associação positiva na amostra, sem prova causal</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M14-C" name="U04-M14" value="C">
+          <label for="U04-M14-C"><strong>C.</strong> Toda pessoa exposta comprou</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M14-D" name="U04-M14" value="D">
+          <label for="U04-M14-D"><strong>D.</strong> O suporte é 2</label>
+        </div>
+    </fieldset>
+    <fieldset id="U04-M15">
+      <legend><span class="question-id">U04-M15</span> — Uma validação correta do Apriori compara:</legend>
+        <div class="option">
+          <input type="radio" id="U04-M15-A" name="U04-M15" value="A">
+          <label for="U04-M15-A"><strong>A.</strong> Apenas quantidade de linhas</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M15-B" name="U04-M15" value="B">
+          <label for="U04-M15-B"><strong>B.</strong> Apenas tempo de execução</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M15-C" name="U04-M15" value="C">
+          <label for="U04-M15-C"><strong>C.</strong> Somente itemsets unitários</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="U04-M15-D" name="U04-M15" value="D">
+          <label for="U04-M15-D"><strong>D.</strong> Identidade dos itemsets e seus suportes</label>
+        </div>
+    </fieldset>
+    </form>
+  </main>
+</body>
+</html>

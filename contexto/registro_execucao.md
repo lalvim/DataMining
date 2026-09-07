@@ -20,7 +20,7 @@ Estados permitidos:
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-02 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-08-31 | Três notebooks, listas, gabaritos e pareceres validados |
-| Unidade IV — Mineração de Padrões | Não iniciada | 0% | — | — |
+| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-07 | Três notebooks, listas, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
@@ -39,9 +39,9 @@ Estados permitidos:
 | `03_01_qualidade_limpeza_e_integracao.ipynb` | Qualidade e limpeza | Concluída | Concluída | Aprovada | Concluída |
 | `03_02_transformacao_e_discretizacao.ipynb` | Transformação | Concluída | Concluída | Aprovada | Concluída |
 | `03_03_reducao_de_dados.ipynb` | Redução de dados | Concluída | Concluída | Aprovada | Concluída |
-| `04_01_itemsets_e_regras_de_associacao.ipynb` | Regras de associação | Pendente | Pendente | Pendente | Pendente |
-| `04_02_algoritmo_apriori.ipynb` | Apriori | Pendente | Pendente | Pendente | Pendente |
-| `04_03_avaliacao_e_padroes_sequenciais.ipynb` | Avaliação e sequências | Pendente | Pendente | Pendente | Pendente |
+| `04_01_itemsets_e_regras_de_associacao.ipynb` | Regras de associação | Concluída | Concluída | Aprovada | Concluída |
+| `04_02_algoritmo_apriori.ipynb` | Apriori | Concluída | Concluída | Aprovada | Concluída |
+| `04_03_avaliacao_e_padroes_sequenciais.ipynb` | Avaliação e sequências | Concluída | Concluída | Aprovada | Concluída |
 | `05_01_processo_e_avaliacao_de_classificacao.ipynb` | Processo e métricas | Pendente | Pendente | Pendente | Pendente |
 | `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Pendente | Pendente | Pendente | Pendente |
 | `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Pendente | Pendente | Pendente | Pendente |
@@ -59,12 +59,27 @@ Estados permitidos:
 | I — Mineração de Dados | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | II — Análise de Dados | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | III — Pré-processamento | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
-| IV — Mineração de Padrões | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
+| IV — Mineração de Padrões | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | V — Classificação e Regressão | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 | VI — Análise de Grupos | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-09-07
+
+- Produzidos os três notebooks da Unidade IV: itemsets e regras de associação; algoritmo Apriori; avaliação de regras e padrões sequenciais.
+- Demonstradas representação transacional, matriz *one-hot*, métricas de suporte, confiança, *lift*, leverage e conviction, com cálculo manual e interpretação sem atribuição causal.
+- Implementado um Apriori didático com geração e poda por nível, auditoria de candidatos e verificação exata contra `mlxtend.apriori`.
+- Analisado o efeito do suporte mínimo sobre itemsets frequentes e candidatos avaliados; criada figura comparativa com quatro limiares.
+- Introduzidos padrões sequenciais, ocorrência como subsequência e suporte por entidade; criada figura com quatro padrões de jornada.
+- Criadas 16 questões conceituais e 15 questões objetivas em HTML, todas com identificadores e gabaritos comentados separados.
+- Criados gabaritos para as sete atividades dos notebooks, com soluções, resultados esperados e rubricas.
+- Emitidos sete pareceres especializados e uma consolidação para cada notebook, além de quatro pareceres das listas: 28 arquivos de revisão aprovados sem achados obrigatórios.
+- Ambiente auditado com `uv sync --frozen`: 109 pacotes conferidos pelo lockfile.
+- Reexecutadas 40 células, incluindo 15 de código, sem saídas de erro e com identificadores de célula únicos.
+- Validada a correspondência completa dos identificadores: 16 conceituais, 15 de múltipla escolha e sete atividades internas.
+- Validado o HTML com 15 grupos, 60 controles, 60 rótulos, nenhum script e nenhum gabarito embutido; as duas figuras foram renderizadas e inspecionadas.
 
 ### 2026-09-02
 
@@ -168,4 +183,4 @@ Estados permitidos:
 
 ## Pendências e bloqueios
 
-Nenhum bloqueio registrado. A próxima ação é produzir a Unidade III já aplicando a política completa de gabaritos desde o início.
+Nenhum bloqueio registrado. A próxima ação prevista é produzir a Unidade V, aplicando a política completa de gabaritos e revisões desde o início.
