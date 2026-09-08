@@ -13,7 +13,7 @@ Ao final da produção, o repositório deverá conter:
 - notebooks didáticos executáveis para todas as unidades;
 - exercícios guiados e propostos, com soluções separadas quando necessário;
 - uma lista de exercícios conceituais em Markdown para cada unidade;
-- uma lista de múltipla escolha em HTML para cada unidade;
+- uma lista de múltipla escolha em Markdown para cada unidade;
 - gabaritos separados para a lista conceitual, a múltipla escolha e todas as atividades dos notebooks;
 - imagens e diagramas próprios ou com licença e atribuição adequadas;
 - conjuntos de dados locais, pequenos e documentados, ou rotinas reprodutíveis de obtenção;
@@ -58,7 +58,7 @@ DataMining/
 ├── exercicios/
 │   └── unidade_XX/
 │       ├── exercicios_conceituais.md
-│       └── multipla_escolha.html
+│       └── multipla_escolha.md
 └── gabaritos/
     └── unidade_XX/
         ├── gabarito_exercicios_conceituais.md
@@ -84,9 +84,9 @@ Cada assunto será desenvolvido no ciclo:
 Ao final de cada unidade, os notebooks serão complementados por duas listas independentes:
 
 1. `exercicios/unidade_XX/exercicios_conceituais.md`, com questões discursivas, interpretativas e de aplicação que cubram todos os objetivos da unidade;
-2. `exercicios/unidade_XX/multipla_escolha.html`, com questões objetivas e alternativas plausíveis.
+2. `exercicios/unidade_XX/multipla_escolha.md`, com questões objetivas e alternativas plausíveis.
 
-Todos os exercícios terão identificadores estáveis e gabaritos em `gabaritos/unidade_XX/`. Isso inclui as listas e cada verificação, exercício, desafio ou código incompleto apresentado nos notebooks. Questões discursivas terão resposta-modelo e critérios; múltipla escolha terá alternativa correta, justificativa e explicação dos distratores relevantes. Nenhuma resposta poderá ser embutida no HTML do estudante.
+Todos os exercícios terão identificadores estáveis e gabaritos em `gabaritos/unidade_XX/`. Isso inclui as listas e cada verificação, exercício, desafio ou código incompleto apresentado nos notebooks. Questões discursivas terão resposta-modelo e critérios; múltipla escolha terá alternativa correta, justificativa e explicação dos distratores relevantes. Nenhuma resposta ou dica poderá ser embutida no Markdown do estudante.
 
 Bibliotecas-base previstas: Python, NumPy, pandas, SciPy, Matplotlib, Seaborn, scikit-learn e, para regras de associação, mlxtend. O **uv** será o gerenciador exclusivo de Python, ambiente e pacotes. Dependências diretas deverão ser adicionadas ao `pyproject.toml` com `uv add`; o `uv.lock` deverá ser versionado para garantir instalações reproduzíveis.
 

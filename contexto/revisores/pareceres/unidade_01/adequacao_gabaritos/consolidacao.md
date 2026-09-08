@@ -2,4 +2,4 @@
 
 **Decisão:** Aprovada — 2026-08-16
 
-Todos os exercícios têm gabarito separado; identificadores correspondem; HTML acessível e sem respostas embutidas; nenhum achado obrigatório.
+Todos os exercícios têm gabarito separado; os identificadores correspondem; a lista Markdown está legível e sem respostas embutidas; nenhum achado obrigatório.

@@ -4,7 +4,7 @@
 
 | Campo | Valor |
 |---|---|
-| Materiais | `exercicios/unidade_01/*.md` e `solucoes/unidade_01/gabarito_multipla_escolha.md` |
+| Materiais | `exercicios/unidade_01/*.md` e `gabaritos/unidade_01/gabarito_multipla_escolha.md` |
 | Especialidade | Alinhamento curricular |
 | Data | 2026-08-16 |
 | Estado | Aprovado |

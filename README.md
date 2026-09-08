@@ -36,25 +36,25 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Introdução à mineração de dados](notebooks/unidade_01/01_01_introducao_a_mineracao_de_dados.ipynb)
    - [Processo KDD](notebooks/unidade_01/01_02_processo_kdd.ipynb)
    - [Exercícios conceituais](exercicios/unidade_01/exercicios_conceituais.md)
-   - [Questões de múltipla escolha](exercicios/unidade_01/multipla_escolha.html)
+   - [Questões de múltipla escolha](exercicios/unidade_01/multipla_escolha.md)
 3. Unidade II — Análise de Dados
    - [Tipos e descrição de dados](notebooks/unidade_02/02_01_tipos_e_descricao_de_dados.ipynb)
    - [Visualização de dados](notebooks/unidade_02/02_02_visualizacao_de_dados.ipynb)
    - [Similaridade e dissimilaridade](notebooks/unidade_02/02_03_similaridade_e_dissimilaridade.ipynb)
    - [Exercícios conceituais](exercicios/unidade_02/exercicios_conceituais.md)
-   - [Questões de múltipla escolha](exercicios/unidade_02/multipla_escolha.html)
+   - [Questões de múltipla escolha](exercicios/unidade_02/multipla_escolha.md)
 4. Unidade III — Pré-processamento de Dados
    - [Qualidade, limpeza e integração](notebooks/unidade_03/03_01_qualidade_limpeza_e_integracao.ipynb)
    - [Transformação e discretização](notebooks/unidade_03/03_02_transformacao_e_discretizacao.ipynb)
    - [Redução de dados](notebooks/unidade_03/03_03_reducao_de_dados.ipynb)
    - [Exercícios conceituais](exercicios/unidade_03/exercicios_conceituais.md)
-   - [Questões de múltipla escolha](exercicios/unidade_03/multipla_escolha.html)
+   - [Questões de múltipla escolha](exercicios/unidade_03/multipla_escolha.md)
 5. Unidade IV — Mineração de Padrões
    - [Itemsets e regras de associação](notebooks/unidade_04/04_01_itemsets_e_regras_de_associacao.ipynb)
    - [Algoritmo Apriori](notebooks/unidade_04/04_02_algoritmo_apriori.ipynb)
    - [Avaliação e padrões sequenciais](notebooks/unidade_04/04_03_avaliacao_e_padroes_sequenciais.ipynb)
    - [Exercícios conceituais](exercicios/unidade_04/exercicios_conceituais.md)
-   - [Questões de múltipla escolha](exercicios/unidade_04/multipla_escolha.html)
+   - [Questões de múltipla escolha](exercicios/unidade_04/multipla_escolha.md)
 
 Os gabaritos ficam exclusivamente em `gabaritos/`, separados do material do estudante. Toda questão das listas e dos notebooks deve possuir resposta associada nessa pasta.
 

@@ -17,9 +17,9 @@ Estados permitidos:
 | Etapa | Estado | Progresso | Última atualização | Observação |
 |---|---|---:|---|---|
 | Infraestrutura e modelo | Concluída | 100% | 2026-08-16 | Ambiente uv, diretórios, documentação, notebook inicial e modelo criados e validados |
-| Unidade I — Mineração de Dados | Concluída | 100% | 2026-08-16 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
-| Unidade II — Análise de Dados | Concluída | 100% | 2026-09-02 | Todos os materiais, HTML e gabaritos separados foram validados e aprovados |
-| Unidade III — Pré-processamento | Concluída | 100% | 2026-08-31 | Três notebooks, listas, gabaritos e pareceres validados |
+| Unidade I — Mineração de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
+| Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
+| Unidade III — Pré-processamento | Concluída | 100% | 2026-09-07 | Três notebooks, listas Markdown, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-07 | Três notebooks, listas, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
@@ -54,7 +54,7 @@ Estados permitidos:
 
 ## Controle dos exercícios e gabaritos
 
-| Unidade | Conceituais `.md` | Múltipla escolha `.html` | Gabarito conceitual | Gabarito múltipla escolha | Gabaritos dos notebooks | Revisão |
+| Unidade | Conceituais `.md` | Múltipla escolha `.md` | Gabarito conceitual | Gabarito múltipla escolha | Gabaritos dos notebooks | Revisão |
 |---|---|---|---|---|---|---|
 | I — Mineração de Dados | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | II — Análise de Dados | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
@@ -68,18 +68,22 @@ Estados permitidos:
 
 ### 2026-09-07
 
+- Convertidas para Markdown as listas de múltipla escolha das Unidades I, II, III e IV; os quatro arquivos HTML deixaram de fazer parte do material.
+- Preservados 60 identificadores e 240 alternativas nas quatro listas, mantendo correspondência integral com os gabaritos separados.
+- Atualizados plano, diretrizes, roteiro de estudo e protocolos de revisão para tornar `multipla_escolha.md` o formato obrigatório das unidades atuais e futuras.
+- Substituídos os quatro pareceres de HTML por pareceres de formatação Markdown e removido o gerador HTML que se tornou obsoleto.
 - Produzidos os três notebooks da Unidade IV: itemsets e regras de associação; algoritmo Apriori; avaliação de regras e padrões sequenciais.
 - Demonstradas representação transacional, matriz *one-hot*, métricas de suporte, confiança, *lift*, leverage e conviction, com cálculo manual e interpretação sem atribuição causal.
 - Implementado um Apriori didático com geração e poda por nível, auditoria de candidatos e verificação exata contra `mlxtend.apriori`.
 - Analisado o efeito do suporte mínimo sobre itemsets frequentes e candidatos avaliados; criada figura comparativa com quatro limiares.
 - Introduzidos padrões sequenciais, ocorrência como subsequência e suporte por entidade; criada figura com quatro padrões de jornada.
-- Criadas 16 questões conceituais e 15 questões objetivas em HTML, todas com identificadores e gabaritos comentados separados.
+- Criadas 16 questões conceituais e 15 questões objetivas em Markdown, todas com identificadores e gabaritos comentados separados.
 - Criados gabaritos para as sete atividades dos notebooks, com soluções, resultados esperados e rubricas.
 - Emitidos sete pareceres especializados e uma consolidação para cada notebook, além de quatro pareceres das listas: 28 arquivos de revisão aprovados sem achados obrigatórios.
 - Ambiente auditado com `uv sync --frozen`: 109 pacotes conferidos pelo lockfile.
 - Reexecutadas 40 células, incluindo 15 de código, sem saídas de erro e com identificadores de célula únicos.
 - Validada a correspondência completa dos identificadores: 16 conceituais, 15 de múltipla escolha e sete atividades internas.
-- Validado o HTML com 15 grupos, 60 controles, 60 rótulos, nenhum script e nenhum gabarito embutido; as duas figuras foram renderizadas e inspecionadas.
+- Validada a lista objetiva em Markdown com 15 questões, 60 alternativas e nenhum gabarito embutido; as duas figuras foram renderizadas e inspecionadas.
 
 ### 2026-09-02
 

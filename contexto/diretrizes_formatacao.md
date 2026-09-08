@@ -226,7 +226,7 @@ Além dos exercícios inseridos nos notebooks, toda unidade deve possuir:
 
 ```text
 exercicios/unidade_XX/exercicios_conceituais.md
-exercicios/unidade_XX/multipla_escolha.html
+exercicios/unidade_XX/multipla_escolha.md
 gabaritos/unidade_XX/gabarito_exercicios_conceituais.md
 gabaritos/unidade_XX/gabarito_multipla_escolha.md
 gabaritos/unidade_XX/gabaritos_notebooks/<nome_do_notebook>.md
@@ -266,11 +266,11 @@ Estrutura recomendada:
 3. [Questão]
 ```
 
-#### Lista de múltipla escolha em HTML
+#### Lista de múltipla escolha em Markdown
 
-- Usar um documento HTML5 autônomo, sem dependências externas obrigatórias.
-- Usar elementos semânticos, grupos de rádio associados por questão, `label` explícito e navegação por teclado.
-- Identificar cada questão com código estável visível.
+- Usar um arquivo Markdown com um único título de nível 1, instruções explícitas e questões organizadas em títulos de nível 2.
+- Identificar cada questão com código estável visível no respectivo título, por exemplo `## U02-M07`.
+- Representar as alternativas como lista, preferencialmente com caixas vazias: `- [ ] **A.** Alternativa`.
 - Cada questão deve possuir enunciado autossuficiente e, preferencialmente, quatro alternativas (`A` a `D`).
 - Deve existir uma única melhor resposta, salvo indicação explícita em contrário.
 - Distratores devem ser plausíveis e baseados em erros conceituais frequentes.
@@ -279,8 +279,8 @@ Estrutura recomendada:
 - Não tornar uma questão dependente da resposta de outra.
 - Incluir questões de compreensão e aplicação, não apenas memorização.
 - Não inserir respostas ou dicas no arquivo destinado aos estudantes.
-- Não embutir respostas em JavaScript, atributos `data-*`, comentários HTML, CSS, metadados ou nomes reveladores.
-- O formulário pode permitir seleção e impressão, mas não deve corrigir automaticamente nem transmitir respostas.
+- Manter enunciados, fórmulas e trechos de código compatíveis com Markdown e LaTeX renderizado no Jupyter.
+- Garantir boa leitura tanto na renderização quanto no arquivo-fonte e na impressão.
 
 #### Gabaritos separados
 
@@ -356,7 +356,7 @@ Ferramentas de validação poderão incluir execução via `jupyter nbconvert --
 - [ ] Dados documentados e transformações rastreáveis.
 - [ ] Exercícios com instruções e produto esperado.
 - [ ] Lista conceitual da unidade criada e alinhada aos objetivos.
-- [ ] Lista de múltipla escolha em HTML criada, acessível e sem respostas embutidas.
+- [ ] Lista de múltipla escolha em Markdown criada, legível e sem respostas embutidas.
 - [ ] Cada questão possui identificador estável.
 - [ ] Gabarito conceitual separado, com respostas e critérios de correção.
 - [ ] Gabarito da múltipla escolha separado e comentado.
