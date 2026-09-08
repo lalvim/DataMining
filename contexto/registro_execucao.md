@@ -68,6 +68,8 @@ Estados permitidos:
 
 ### 2026-09-07
 
+- Reescrito integralmente o gabarito dos 16 exercícios conceituais da Unidade III, substituindo indicações de procedimento por respostas completas, cálculos, exemplos numéricos, código e decisões-modelo.
+- Acrescentados exemplos de solução para todas as questões abertas e mantidos critérios de correção após cada resposta; correspondência dos 16 identificadores novamente validada.
 - Convertidas para Markdown as listas de múltipla escolha das Unidades I, II, III e IV; os quatro arquivos HTML deixaram de fazer parte do material.
 - Preservados 60 identificadores e 240 alternativas nas quatro listas, mantendo correspondência integral com os gabaritos separados.
 - Atualizados plano, diretrizes, roteiro de estudo e protocolos de revisão para tornar `multipla_escolha.md` o formato obrigatório das unidades atuais e futuras.
