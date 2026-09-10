@@ -20,7 +20,7 @@ Estados permitidos:
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
-| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-07 | Três notebooks, listas, gabaritos e pareceres validados |
+| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-09 | Notebook do Apriori ampliado; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
@@ -68,6 +68,11 @@ Estados permitidos:
 
 ### 2026-09-09
 
+- Acrescentada ao notebook `04_02_algoritmo_apriori.ipynb` uma seção visual autoral sobre a passagem de candidatos $C_k$ para frequentes $L_k$, usando exclusivamente os dados sintéticos da disciplina.
+- Demonstrados graficamente os níveis $7\rightarrow5$, $10\rightarrow5$ e $1\rightarrow1$, o limiar absoluto de três transações e a poda de três entre quatro trios gerados antes da contagem.
+- Diferenciadas poda estrutural e filtragem por suporte; acrescentadas explicação passo a passo, condição de parada e asserções para proteger as contagens apresentadas.
+- A figura comercial apresentada como referência não foi incorporada nem adaptada; a nova composição usa gráficos de barras, painel de decisões e dados próprios.
+- Notebook do Apriori reexecutado integralmente: 17 células, sete de código, duas figuras, identificadores únicos, gabaritos correspondentes e nenhuma saída de erro.
 - Ampliada a tabela sintética do notebook `03_01_qualidade_limpeza_e_integracao.ipynb` para conter exemplos explícitos de completude, validade, consistência, unicidade e atualidade.
 - Acrescentado, imediatamente após os dados brutos, um quadro que identifica um registro e explica o erro de cada dimensão; declaradas a regra cidade–UF, a data de referência 2026-01-01 e a validade temporal de dois anos.
 - Transferido o quadro conceitual das cinco dimensões de um DataFrame para uma célula Markdown; a célula de código passou a exibir exclusivamente os registros brutos.
