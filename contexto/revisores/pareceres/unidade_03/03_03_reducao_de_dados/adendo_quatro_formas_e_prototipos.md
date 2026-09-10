@@ -15,6 +15,6 @@ A redução por agrupamento foi corretamente classificada como redução de obje
 - centroide sintético, representante real e amostragem dentro do grupo são distinguidos;
 - ficam explícitas as limitações relativas a escala, distância, número de grupos, densidade, casos raros e fronteiras de classe.
 
-O quadro final orienta a escolha entre reduzir linhas, granularidade ou colunas e esclarece que as técnicas podem ser combinadas. O notebook foi executado integralmente: 18 células, oito de código, identificadores únicos e nenhuma saída de erro.
+O quadro final orienta a escolha entre reduzir linhas, granularidade ou colunas e esclarece que as técnicas podem ser combinadas. Uma ilustração matricial compara as quatro formas, e uma projeção distingue observações, centroides sintéticos e linhas reais representantes. Ambas possuem rótulos, formas distintas e interpretação textual. O notebook foi executado integralmente: 21 células, dez de código, três figuras, identificadores únicos e nenhuma saída de erro.
 
 **Achados obrigatórios:** nenhum.

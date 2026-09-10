@@ -73,7 +73,9 @@ Estados permitidos:
 - Explicada a redução de linhas por *clustering* como seleção de protótipos ou amostragem representativa, distinta de seleção e extração de atributos.
 - Adicionado exemplo com K-means que resume 569 objetos em 12 grupos e escolhe a linha real mais próxima de cada centroide; diferenciados centroide sintético, representante real e amostragem dentro do grupo.
 - Acrescentado quadro de decisão entre as formas de redução e esclarecida a possibilidade de combiná-las sem vazamento.
-- Notebook reexecutado integralmente: 18 células, oito células de código, identificadores únicos e nenhuma saída de erro.
+- Criada ilustração matricial comparando amostragem, agregação, seleção e extração, tornando visíveis as diferenças entre preservar linhas ou colunas e criar resumos ou dimensões.
+- Criada projeção bidimensional dos agrupamentos, com símbolos distintos para as 569 observações, 12 centroides sintéticos e 12 linhas reais representantes, acompanhada de ressalva sobre a perda da projeção.
+- Notebook reexecutado integralmente: 21 células, dez células de código, três figuras, identificadores únicos, atividades correspondentes aos gabaritos e nenhuma saída de erro.
 
 ### 2026-09-07
 
