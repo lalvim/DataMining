@@ -215,6 +215,7 @@ Antes da Unidade I:
    - pipelines para evitar vazamento.
 3. `03_03_reducao_de_dados.ipynb`
    - amostragem e agregação;
+   - redução de objetos por representantes obtidos com agrupamento;
    - seleção de atributos;
    - PCA: intuição geométrica, fórmula e aplicação;
    - análise do compromisso entre compressão e perda de informação.

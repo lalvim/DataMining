@@ -19,7 +19,7 @@ Estados permitidos:
 | Infraestrutura e modelo | Concluída | 100% | 2026-08-16 | Ambiente uv, diretórios, documentação, notebook inicial e modelo criados e validados |
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
-| Unidade III — Pré-processamento | Concluída | 100% | 2026-09-07 | Três notebooks, listas Markdown, gabaritos e pareceres validados |
+| Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-07 | Três notebooks, listas, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
@@ -65,6 +65,15 @@ Estados permitidos:
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-09-09
+
+- Reorganizado o notebook `03_03_reducao_de_dados.ipynb` em subseções explícitas de amostragem, agregação, seleção de atributos e extração de atributos, com finalidade, mecanismo, perdas e critérios de escolha.
+- Implementada seleção supervisionada de 8 entre 30 atributos por filtro ANOVA, ajustado apenas no treino, tornando visível a preservação dos nomes das colunas originais e suas limitações.
+- Explicada a redução de linhas por *clustering* como seleção de protótipos ou amostragem representativa, distinta de seleção e extração de atributos.
+- Adicionado exemplo com K-means que resume 569 objetos em 12 grupos e escolhe a linha real mais próxima de cada centroide; diferenciados centroide sintético, representante real e amostragem dentro do grupo.
+- Acrescentado quadro de decisão entre as formas de redução e esclarecida a possibilidade de combiná-las sem vazamento.
+- Notebook reexecutado integralmente: 18 células, oito células de código, identificadores únicos e nenhuma saída de erro.
 
 ### 2026-09-07
 
