@@ -68,6 +68,11 @@ Estados permitidos:
 
 ### 2026-09-09
 
+- Ampliada a tabela sintética do notebook `03_01_qualidade_limpeza_e_integracao.ipynb` para conter exemplos explícitos de completude, validade, consistência, unicidade e atualidade.
+- Acrescentado, imediatamente após os dados brutos, um quadro que identifica um registro e explica o erro de cada dimensão; declaradas a regra cidade–UF, a data de referência 2026-01-01 e a validade temporal de dois anos.
+- Transferido o quadro conceitual das cinco dimensões de um DataFrame para uma célula Markdown; a célula de código passou a exibir exclusivamente os registros brutos.
+- Atualizados diagnóstico e limpeza para tratar a inconsistência Olinda/PB sem inventar informação ausente ou atual; o registro desatualizado permanece sinalizado para recadastramento.
+- Adicionadas asserções sobre os sete indicadores antes/depois, a preservação efetiva da base bruta e a cardinalidade da junção; notebook reexecutado com 14 células, seis de código e nenhuma saída de erro.
 - Reorganizado o notebook `03_03_reducao_de_dados.ipynb` em subseções explícitas de amostragem, agregação, seleção de atributos e extração de atributos, com finalidade, mecanismo, perdas e critérios de escolha.
 - Implementada seleção supervisionada de 8 entre 30 atributos por filtro ANOVA, ajustado apenas no treino, tornando visível a preservação dos nomes das colunas originais e suas limitações.
 - Explicada a redução de linhas por *clustering* como seleção de protótipos ou amostragem representativa, distinta de seleção e extração de atributos.
