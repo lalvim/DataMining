@@ -20,7 +20,7 @@ Estados permitidos:
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
-| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-09 | Notebook do Apriori ampliado; materiais, gabaritos e pareceres validados |
+| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-14 | Notebooks de Apriori e avaliação de regras ampliados; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
@@ -65,6 +65,15 @@ Estados permitidos:
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-09-14
+
+- Reorganizada a explicação de *leverage* e *conviction* no notebook `04_03_avaliacao_e_padroes_sequenciais.ipynb` conforme o formato didático indicado pelo docente.
+- Introduzida primeiro a leitura da regra $A\rightarrow B$; cada métrica passou a ter definição, fórmula, interpretação por faixas e exemplo próprio.
+- Acrescentados o exemplo introdutório café→açúcar, o quadro comparativo, a simetria do *leverage* e a direcionalidade da *conviction*.
+- Conectada a explicação às regras geradas no notebook: `{pao, leite} → {manteiga}`, `{arroz} → {feijao}` e `{feijao} → {arroz}`.
+- Exibidas por código as coocorrências e violações observadas e esperadas; interpretados *leverage* 0,125 e 0,208, *conviction* 2,5 e 3,5 e o caso infinito.
+- Notebook reexecutado integralmente com `uv`: 16 células, seis de código, uma figura, identificadores únicos, correspondência com os gabaritos e nenhuma saída de erro.
 
 ### 2026-09-09
 
