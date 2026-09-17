@@ -20,7 +20,7 @@ Estados permitidos:
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
-| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-14 | Notebooks de Apriori e avaliação de regras ampliados; materiais, gabaritos e pareceres validados |
+| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-16 | Explicações dos notebooks 04.01 e 04.03 padronizadas; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
@@ -65,6 +65,15 @@ Estados permitidos:
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-09-16
+
+- Reestruturadas as explicações de suporte, confiança e *lift* no notebook `04_01_itemsets_e_regras_de_associacao.ipynb`, adotando o padrão didático estabelecido no notebook 04.03.
+- Apresentada primeiro a regra $A\rightarrow B$; cada métrica passou a conter definição, fórmula, interpretação por faixas e exemplo próprio.
+- Usado um exemplo coerente de 100 compras com café e açúcar para diferenciar alcance conjunto, probabilidade condicional e ganho relativo sobre a taxa-base.
+- Acrescentados quadro comparativo e perguntas intuitivas, além das propriedades de direcionalidade da confiança e simetria do suporte e do *lift*.
+- Ampliada a aplicação feijão→arroz com contagens explícitas e comparação com arroz→feijão: suporte 0,500, confianças 1,000 e 0,857 e *lift* 1,714 nas duas direções.
+- Notebook reexecutado integralmente com `uv`: 12 células, quatro de código, identificadores únicos, correspondência com os gabaritos e nenhuma saída de erro; adendo de revisão aprovado.
 
 ### 2026-09-14
 
