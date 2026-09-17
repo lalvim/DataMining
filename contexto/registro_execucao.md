@@ -20,7 +20,7 @@ Estados permitidos:
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
-| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-16 | Explicações dos notebooks 04.01 e 04.03 padronizadas; materiais, gabaritos e pareceres validados |
+| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-16 | Explicações e transições dos notebooks 04.01 e 04.03 ampliadas; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
@@ -68,6 +68,12 @@ Estados permitidos:
 
 ### 2026-09-16
 
+- Criada no notebook `04_03_avaliacao_e_padroes_sequenciais.ipynb` a seção “Exemplo aplicado: da fórmula às tabelas”, imediatamente antes do código que calcula coocorrências e violações.
+- Documentadas as fórmulas e o significado de cada coluna das tabelas de *leverage* e *conviction*, incluindo a conversão de probabilidades para contagens em 12 transações.
+- Identificadas as saídas no próprio código como “Tabela 1 — Coocorrências e leverage” e “Tabela 2 — Violações da regra e conviction”.
+- Reescritos os três exemplos para explicitar $P(A)$, $P(B)$ e $P(A\cap B)$, substituir esses valores nas fórmulas e relacionar cada resultado às colunas das tabelas.
+- Explicada a equivalência entre *conviction* e a razão falhas esperadas/falhas observadas, além do motivo pelo qual expectativas podem ser fracionárias.
+- Notebook 04.03 reexecutado integralmente com `uv`: 17 células, seis de código, uma figura, identificadores únicos, correspondência com os gabaritos e nenhuma saída de erro; adendo de revisão aprovado.
 - Reestruturadas as explicações de suporte, confiança e *lift* no notebook `04_01_itemsets_e_regras_de_associacao.ipynb`, adotando o padrão didático estabelecido no notebook 04.03.
 - Apresentada primeiro a regra $A\rightarrow B$; cada métrica passou a conter definição, fórmula, interpretação por faixas e exemplo próprio.
 - Usado um exemplo coerente de 100 compras com café e açúcar para diferenciar alcance conjunto, probabilidade condicional e ganho relativo sobre a taxa-base.
