@@ -1,8 +1,8 @@
-# Parecer de nível acadêmico — 04.03 — Avaliação e padrões sequenciais
+# Parecer de nível acadêmico — 04.03 — Avaliação de regras
 
-**Data:** 2026-09-07  
+**Data:** 2026-09-16
 **Decisão:** Aprovado
 
-Adequado à graduação: combina interpretação de métricas, implementação simples de subsequência e discussão de estabilidade e uso no domínio.
+Adequado à graduação: combina interpretação matemática das métricas, verificação computacional, estabilidade, uso no domínio e limitações causais.
 
 **Achados obrigatórios:** nenhum.

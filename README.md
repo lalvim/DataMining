@@ -52,7 +52,8 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
 5. Unidade IV — Mineração de Padrões
    - [Itemsets e regras de associação](notebooks/unidade_04/04_01_itemsets_e_regras_de_associacao.ipynb)
    - [Algoritmo Apriori](notebooks/unidade_04/04_02_algoritmo_apriori.ipynb)
-   - [Avaliação e padrões sequenciais](notebooks/unidade_04/04_03_avaliacao_e_padroes_sequenciais.ipynb)
+   - [Avaliação de regras de associação](notebooks/unidade_04/04_03_avaliacao_e_padroes_sequenciais.ipynb)
+   - [Padrões sequenciais](notebooks/unidade_04/04_04_padroes_sequenciais.ipynb)
    - [Exercícios conceituais](exercicios/unidade_04/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_04/multipla_escolha.md)
 

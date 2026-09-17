@@ -191,7 +191,7 @@ Antes da Unidade I:
 
 ### Unidade III — Pré-processamento de Dados
 
-**Carga prevista:** 8 horas  
+**Carga prevista:** 8 horas
 **Referência principal no livro:** Capítulo 2, seções 2.4–2.6.
 
 **Objetivos de aprendizagem**
@@ -228,7 +228,7 @@ Antes da Unidade I:
 
 ### Unidade IV — Mineração de Padrões
 
-**Carga prevista:** 8 horas  
+**Carga prevista:** 10 horas
 **Referência principal no livro:** Capítulo 4, seções 4.1–4.3; Capítulo 5, seção 5.4, para padrões sequenciais.
 
 **Objetivos de aprendizagem**
@@ -253,14 +253,19 @@ Antes da Unidade I:
 3. `04_03_avaliacao_e_padroes_sequenciais.ipynb`
    - regras fortes versus interessantes;
    - correlação e armadilhas interpretativas;
-   - introdução a padrões de sequência;
-   - estudo de caso aplicado.
+   - *leverage*, *conviction* e avaliação responsável;
+   - relação entre fórmulas, contagens e tabelas.
+4. `04_04_padroes_sequenciais.ipynb`
+   - diferença entre cestas e sequências;
+   - subsequências e suporte por entidade;
+   - empates, repetições, janelas e lacunas temporais;
+   - estudo de caso com jornadas e interpretação não causal.
 
-**Atividade integradora:** minerar regras, selecionar um subconjunto útil e apresentar interpretação de negócio sem atribuir causalidade indevida.
+**Atividade integradora:** minerar regras e padrões sequenciais, selecionar subconjuntos úteis e apresentar interpretações de negócio sem atribuir causalidade indevida.
 
 **Listas da unidade:** exercícios conceituais envolvendo suporte, confiança, lift e Apriori; múltipla escolha com gabarito comentado.
 
-**Critério de conclusão:** métricas validadas manualmente, Apriori explicado passo a passo e conclusões sustentadas pelos resultados.
+**Critério de conclusão:** métricas validadas manualmente, Apriori explicado passo a passo, suporte sequencial calculado por entidade e conclusões sustentadas pelos resultados.
 
 ### Unidade V — Classificação e Regressão
 

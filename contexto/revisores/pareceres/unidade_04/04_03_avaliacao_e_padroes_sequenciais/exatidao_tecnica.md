@@ -1,8 +1,8 @@
-# Parecer de exatidão técnica — 04.03 — Avaliação e padrões sequenciais
+# Parecer de exatidão técnica — 04.03 — Avaliação de regras
 
-**Data:** 2026-09-07  
+**Data:** 2026-09-16
 **Decisão:** Aprovado
 
-Leverage, conviction e suporte sequencial são definidos e calculados corretamente. O notebook distingue coocorrência de ordem e evita inferências causais.
+*Leverage* e *conviction* são definidos e calculados corretamente em probabilidades e contagens. Os exemplos reproduzem as saídas e evitam inferências causais.
 
 **Achados obrigatórios:** nenhum.
