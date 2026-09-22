@@ -39,26 +39,3 @@ $$\operatorname{Conviction}(A\rightarrow B)=\frac{1-0{,}50}{1-1}=\frac{0{,}50}{0
 Isso indica ausência de óleo sem feijão nas 12 transações observadas, não uma regra universal.
 
 **Rubrica (8 pontos):** probabilidades (2), *leverage* e ligação à Tabela 1 (2), falhas observadas/esperadas (2), *conviction* e interpretação amostral (2).
-
-## U04-NB03-E02
-
-Não há uma única seleção correta. Uma entrega-modelo deve conter:
-
-1. documentação da origem, período, unidade de análise e significado dos itens;
-2. preparação que preserve os dados brutos e trate identificadores, ausências e duplicatas;
-3. pelo menos duas combinações de suporte e confiança mínimos, registrando quantos itemsets e regras foram produzidos;
-4. no máximo cinco regras finais, acompanhadas de contagens e de suporte, confiança, *lift*, *leverage* e *conviction*;
-5. substituição dos valores nas fórmulas de pelo menos uma regra para conferir as métricas da biblioteca;
-6. verificação de estabilidade por período, segmento ou reamostragem;
-7. hipótese de uso, custos, riscos, redundâncias e explicações alternativas;
-8. linguagem não causal ou um desenho causal separado para avaliar intervenções.
-
-Exemplo de quadro de decisão:
-
-| Regra | Contagem conjunta | Suporte | Confiança | Lift | Leverage | Conviction | Estabilidade | Uso e limitação |
-|---|---:|---:|---:|---:|---:|---:|---|---|
-| $A\rightarrow B$ | $n(A\cap B)$ | valor | valor | valor | valor | valor | variação por período | hipótese de uso e possível confundidor |
-
-Uma regra rara com métrica relativa alta não deve ser priorizada sem volume e estabilidade. Uma regra frequente pode ser pouco informativa se apenas refletir a taxa-base do consequente. A recomendação final precisa justificar conjuntamente as métricas e o contexto.
-
-**Rubrica (10 pontos):** documentação e preparação (2), dois conjuntos de limiares e rastreabilidade (2), métricas e conferência manual (2), estabilidade (2), aplicação e limitações causais/éticas (2).

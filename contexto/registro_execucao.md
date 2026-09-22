@@ -20,7 +20,7 @@ Estados permitidos:
 | Unidade I — Mineração de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
-| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-16 | Conteúdo sequencial separado no novo notebook 04.04; execução, gabaritos e pareceres validados |
+| Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
@@ -41,8 +41,9 @@ Estados permitidos:
 | `03_03_reducao_de_dados.ipynb` | Redução de dados | Concluída | Concluída | Aprovada | Concluída |
 | `04_01_itemsets_e_regras_de_associacao.ipynb` | Regras de associação | Concluída | Concluída | Aprovada | Concluída |
 | `04_02_algoritmo_apriori.ipynb` | Apriori | Concluída | Concluída | Aprovada | Concluída |
-| `04_03_avaliacao_e_padroes_sequenciais.ipynb` | Avaliação de regras | Concluída | Concluída | Aprovada | Concluída |
+| `04_03_avaliacao_e_padroes_sequenciais.ipynb` | Leverage e conviction | Concluída | Concluída | Aprovada | Concluída |
 | `04_04_padroes_sequenciais.ipynb` | Padrões sequenciais | Concluída | Concluída | Aprovada | Concluída |
+| `04_05_avaliacao_responsavel_de_regras.ipynb` | Avaliação responsável de regras | Concluída | Concluída | Aprovada | Concluída |
 | `05_01_processo_e_avaliacao_de_classificacao.ipynb` | Processo e métricas | Pendente | Pendente | Pendente | Pendente |
 | `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Pendente | Pendente | Pendente | Pendente |
 | `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Pendente | Pendente | Pendente | Pendente |
@@ -66,6 +67,16 @@ Estados permitidos:
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-09-21
+
+- Separada a avaliação responsável no novo notebook `04_05_avaliacao_responsavel_de_regras.ipynb`, evitando sobrecarregar o 04.03.
+- O notebook 04.03 ficou concentrado nas fórmulas, tabelas, cálculos e interpretações de *leverage* e *conviction*; a atividade integradora foi transferida ao 04.05.
+- Construídos no 04.05 cinco cenários com tabelas de contingência de 1.000 transações e cálculo conjunto de suporte, confiança, *lift*, *leverage* e *conviction*.
+- Demonstradas confiança alta sob independência, regra perfeita porém rara, duas regras com o mesmo *lift* e impactos absolutos distintos e uma associação negativa apesar de coocorrência observada.
+- Incluído roteiro que relaciona cada métrica à pergunta respondida e às suas limitações; esclarecido que leitura conjunta não significa exigir todas as métricas altas nem calcular sua média.
+- Criadas três atividades `U04-NB05-*`, gabarito completo e sete pareceres com consolidação para o novo notebook.
+- Notebooks reexecutados com `uv`: 04.03 com 11 células e três de código; 04.05 com nove células e duas de código; ambos com identificadores únicos, correspondência exata entre atividades e gabaritos e nenhuma saída de erro.
 
 ### 2026-09-16
 

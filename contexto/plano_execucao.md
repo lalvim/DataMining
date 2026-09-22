@@ -228,7 +228,7 @@ Antes da Unidade I:
 
 ### Unidade IV — Mineração de Padrões
 
-**Carga prevista:** 10 horas
+**Carga prevista:** 12 horas
 **Referência principal no livro:** Capítulo 4, seções 4.1–4.3; Capítulo 5, seção 5.4, para padrões sequenciais.
 
 **Objetivos de aprendizagem**
@@ -251,17 +251,22 @@ Antes da Unidade I:
    - implementação didática e comparação com biblioteca;
    - impacto dos limiares no custo e nos resultados.
 3. `04_03_avaliacao_e_padroes_sequenciais.ipynb`
-   - regras fortes versus interessantes;
-   - correlação e armadilhas interpretativas;
-   - *leverage*, *conviction* e avaliação responsável;
+   - definição e interpretação de *leverage* e *conviction*;
+   - independência, simetria e direcionalidade;
    - relação entre fórmulas, contagens e tabelas.
 4. `04_04_padroes_sequenciais.ipynb`
    - diferença entre cestas e sequências;
    - subsequências e suporte por entidade;
    - empates, repetições, janelas e lacunas temporais;
    - estudo de caso com jornadas e interpretação não causal.
+5. `04_05_avaliacao_responsavel_de_regras.ipynb`
+   - regras fortes versus regras úteis;
+   - leitura conjunta de suporte, confiança, *lift*, *leverage* e *conviction*;
+   - contraexemplos sintéticos para as limitações de cada métrica;
+   - estabilidade, utilidade, custos, redundância e cautela causal;
+   - atividade integradora de seleção responsável de regras.
 
-**Atividade integradora:** minerar regras e padrões sequenciais, selecionar subconjuntos úteis e apresentar interpretações de negócio sem atribuir causalidade indevida.
+**Atividade integradora:** minerar regras e padrões sequenciais, selecionar subconjuntos úteis mediante leitura conjunta das métricas e apresentar interpretações de negócio sem atribuir causalidade indevida.
 
 **Listas da unidade:** exercícios conceituais envolvendo suporte, confiança, lift e Apriori; múltipla escolha com gabarito comentado.
 

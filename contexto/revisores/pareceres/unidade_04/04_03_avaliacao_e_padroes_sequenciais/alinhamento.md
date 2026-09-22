@@ -3,6 +3,6 @@
 **Data:** 2026-09-16
 **Decisão:** Aprovado
 
-Atende aos tópicos de avaliação de regras, métricas de interesse, seleção responsável e interpretação não causal. O conteúdo sequencial foi corretamente encaminhado ao notebook 04.04.
+Atende aos tópicos de definição, cálculo e interpretação de *leverage* e *conviction*. O conteúdo sequencial está no notebook 04.04 e a avaliação responsável foi encaminhada ao 04.05.
 
 **Achados obrigatórios:** nenhum.

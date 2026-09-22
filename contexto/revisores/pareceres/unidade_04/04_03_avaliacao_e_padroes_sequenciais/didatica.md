@@ -3,6 +3,6 @@
 **Data:** 2026-09-16
 **Decisão:** Aprovado
 
-A comparação entre regra forte e regra útil corrige uma confusão comum. A sequência fórmula, tabela, substituição numérica e interpretação sustenta a compreensão de *leverage* e *conviction*.
+A sequência fórmula, tabela, substituição numérica e interpretação sustenta a compreensão de *leverage* e *conviction*. A comparação decisória entre regras foi corretamente encaminhada ao notebook 04.05.
 
 **Achados obrigatórios:** nenhum.
